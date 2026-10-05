@@ -1,0 +1,40 @@
+{
+  "name": "vegbatch-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "repository": "github:ronrivs/vegbatch",
+  "type": "module",
+  "description": "Phase 0: recipe photos -> structured, reviewed recipe data",
+  "scripts": {
+    "prep": "node 1-prep.mjs",
+    "triage": "node 2-triage.mjs",
+    "group": "node 3-group.mjs",
+    "extract": "node 4-extract.mjs",
+    "substitute": "node 5-substitute.mjs",
+    "sweep": "node 6-sweep.mjs",
+    "normalize": "node 7-normalize.mjs",
+    "list": "node list.mjs",
+    "staples": "node staples.mjs",
+    "add": "node add-recipe.mjs",
+    "import": "node import-recipe.mjs",
+    "review": "node review/server.mjs",
+    "build": "node build-site.mjs",
+    "serve": "node serve-site.mjs",
+    "upload": "node -e \"const{execSync}=require('child_process');execSync('npx wrangler pages deploy . --project-name vegbatch --branch main --commit-dirty=true',{cwd:'../site',stdio:'inherit'})\"",
+    "deploy": "npm run build && npm run test && npm run upload && npm run verify",
+    "deploy:force": "npm run build && npm run upload && npm run verify",
+    "test": "node test-units.mjs && node test-import.mjs && node test-site.mjs",
+    "verify": "node verify-live.mjs",
+    "test:account": "node test-delete-account.mjs",
+    "feedback": "node feedback.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "dotenv": "^17.0.0",
+    "sharp": "^0.34.0"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.0"
+  }
+}

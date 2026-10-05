@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+pipeline/.env
+
+node_modules/
+
+# Build output — regenerate with `npm run build` in pipeline/
+site/
+
+# The original photographs of the household's recipe cards. They are the
+# provenance behind every recipe and they are private: handwriting, personal
+# notes, a kitchen's decade of margins. The data they produced is published;
+# the photos never are. Same for the review tool's prepped copies and backups.
+source/
+work/
+
+# One household's real weekly shop. The CLI reads it; the site ships none of
+# it (see build-site.mjs). Yours will be created the first time you run
+# `node staples.mjs add ...`.
+data/staples.json
+
+# The untouched extraction snapshot: carries per-recipe review notes and the
+# household's handwritten edits verbatim. data/recipes.json is the dataset.
+data/recipes.raw.json
+
+# Internal working notes
+PROGRESS.md
+MONETIZATION.md
+pipeline/_*
+pipeline/review/*.log

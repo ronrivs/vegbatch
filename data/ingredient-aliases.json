@@ -1,0 +1,5855 @@
+{
+  "add ins": {
+    "original": "add ins",
+    "base_name": "add ins",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "adobo sauce": {
+    "original": "adobo sauce",
+    "base_name": "adobo sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "agave nectar": {
+    "original": "agave nectar",
+    "base_name": "agave nectar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "agave nectar or honey": {
+    "original": "agave nectar or honey",
+    "base_name": "agave nectar",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "agave nectar",
+      "honey"
+    ]
+  },
+  "agave, honey or maple syrup": {
+    "original": "agave, honey or maple syrup",
+    "base_name": "agave nectar",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "agave nectar",
+      "honey",
+      "maple syrup"
+    ]
+  },
+  "aged white cheddar": {
+    "original": "aged white cheddar",
+    "base_name": "white cheddar cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "all purpose flour": {
+    "original": "all purpose flour",
+    "base_name": "all-purpose flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "all-purpose flour": {
+    "original": "all-purpose flour",
+    "base_name": "all-purpose flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "all-purpose or whole-wheat flour": {
+    "original": "all-purpose or whole-wheat flour",
+    "base_name": "all-purpose flour",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "all-purpose flour",
+      "whole wheat flour"
+    ]
+  },
+  "almond butter": {
+    "original": "almond butter",
+    "base_name": "almond butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "almond extract": {
+    "original": "almond extract",
+    "base_name": "almond extract",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "almond flakes": {
+    "original": "almond flakes",
+    "base_name": "almond",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "almonds": {
+    "original": "almonds",
+    "base_name": "almond",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "apple": {
+    "original": "apple",
+    "base_name": "apple",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "apple cider vinegar": {
+    "original": "apple cider vinegar",
+    "base_name": "apple cider vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "artichoke": {
+    "original": "artichoke",
+    "base_name": "artichoke",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "artichoke hearts": {
+    "original": "artichoke hearts",
+    "base_name": "artichoke",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "arugula": {
+    "original": "arugula",
+    "base_name": "arugula",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "asiago cheese": {
+    "original": "asiago cheese",
+    "base_name": "asiago cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "asparagus": {
+    "original": "asparagus",
+    "base_name": "asparagus",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "asparagus spear": {
+    "original": "asparagus spear",
+    "base_name": "asparagus",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "assorted citrus": {
+    "original": "assorted citrus",
+    "base_name": "citrus",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "avocado": {
+    "original": "avocado",
+    "base_name": "avocado",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "avocado oil": {
+    "original": "avocado oil",
+    "base_name": "avocado oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "avocado oil or olive oil": {
+    "original": "avocado oil or olive oil",
+    "base_name": "avocado oil",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "avocado oil",
+      "olive oil"
+    ]
+  },
+  "avocado or coconut oil": {
+    "original": "avocado or coconut oil",
+    "base_name": "avocado oil",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "avocado oil",
+      "coconut oil"
+    ]
+  },
+  "avocado or olive oil": {
+    "original": "avocado or olive oil",
+    "base_name": "avocado oil",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "avocado oil",
+      "olive oil"
+    ]
+  },
+  "baby arugula": {
+    "original": "baby arugula",
+    "base_name": "arugula",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "baby bella mushrooms": {
+    "original": "baby bella mushrooms",
+    "base_name": "baby bella mushroom",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "baby kale": {
+    "original": "baby kale",
+    "base_name": "kale",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "baby spinach": {
+    "original": "baby spinach",
+    "base_name": "spinach",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "baby spinach and arugula leaves": {
+    "original": "baby spinach and arugula leaves",
+    "base_name": "spinach",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "spinach",
+      "arugula"
+    ]
+  },
+  "baking powder": {
+    "original": "baking powder",
+    "base_name": "baking powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "baking soda": {
+    "original": "baking soda",
+    "base_name": "baking soda",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "balsamic vinegar": {
+    "original": "balsamic vinegar",
+    "base_name": "balsamic vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "banana": {
+    "original": "banana",
+    "base_name": "banana",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "basil": {
+    "original": "basil",
+    "base_name": "basil",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "basil and mint": {
+    "original": "basil and mint",
+    "base_name": "basil",
+    "form": "fresh",
+    "is_compound": true,
+    "parts": [
+      "basil",
+      "mint"
+    ]
+  },
+  "basil leaves": {
+    "original": "basil leaves",
+    "base_name": "basil",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "basil pesto": {
+    "original": "basil pesto",
+    "base_name": "pesto",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "bay leaf": {
+    "original": "bay leaf",
+    "base_name": "bay leaf",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "beet": {
+    "original": "beet",
+    "base_name": "beet",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "beets": {
+    "original": "beets",
+    "base_name": "beet",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "bell pepper": {
+    "original": "bell pepper",
+    "base_name": "bell pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "bitter greens": {
+    "original": "bitter greens",
+    "base_name": "bitter greens",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "black beans": {
+    "original": "black beans",
+    "base_name": "black bean",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "black beans, canned": {
+    "original": "black beans, canned",
+    "base_name": "black bean",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "black olives": {
+    "original": "black olives",
+    "base_name": "black olive",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "black pepper": {
+    "original": "black pepper",
+    "base_name": "black pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "black pepper or chili powder": {
+    "original": "black pepper or chili powder",
+    "base_name": "black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "black pepper",
+      "chili powder"
+    ]
+  },
+  "black sesame seeds": {
+    "original": "black sesame seeds",
+    "base_name": "black sesame seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "blackberries": {
+    "original": "blackberries",
+    "base_name": "blackberry",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "blood orange": {
+    "original": "blood orange",
+    "base_name": "blood orange",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "blue cheese": {
+    "original": "blue cheese",
+    "base_name": "blue cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "blueberries": {
+    "original": "blueberries",
+    "base_name": "blueberry",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "bread crumbs or panko": {
+    "original": "bread crumbs or panko",
+    "base_name": "breadcrumbs",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "breadcrumbs",
+      "panko"
+    ]
+  },
+  "breadcrumbs": {
+    "original": "breadcrumbs",
+    "base_name": "breadcrumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "broccoli": {
+    "original": "broccoli",
+    "base_name": "broccoli",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "broccoli crowns": {
+    "original": "broccoli crowns",
+    "base_name": "broccoli",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "broccoli florets": {
+    "original": "broccoli florets",
+    "base_name": "broccoli",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "broccoli rabe": {
+    "original": "broccoli rabe",
+    "base_name": "broccoli rabe",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "broth": {
+    "original": "broth",
+    "base_name": "broth",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "brown onion": {
+    "original": "brown onion",
+    "base_name": "yellow onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "brown rice": {
+    "original": "brown rice",
+    "base_name": "brown rice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "brown sugar": {
+    "original": "brown sugar",
+    "base_name": "brown sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "brussels sprout": {
+    "original": "brussels sprout",
+    "base_name": "brussels sprouts",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "brussels sprouts": {
+    "original": "brussels sprouts",
+    "base_name": "brussels sprouts",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "bulgur": {
+    "original": "bulgur",
+    "base_name": "bulgur",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "burger bun": {
+    "original": "burger bun",
+    "base_name": "burger bun",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "butter": {
+    "original": "butter",
+    "base_name": "butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "butternut squash": {
+    "original": "butternut squash",
+    "base_name": "butternut squash",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "candied pecans": {
+    "original": "candied pecans",
+    "base_name": "pecans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "canned artichoke": {
+    "original": "canned artichoke",
+    "base_name": "artichoke heart",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "canned black beans": {
+    "original": "canned black beans",
+    "base_name": "black beans",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "canned chickpeas": {
+    "original": "canned chickpeas",
+    "base_name": "chickpeas",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "canned pumpkin puree": {
+    "original": "canned pumpkin puree",
+    "base_name": "pumpkin puree",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "cannellini beans": {
+    "original": "cannellini beans",
+    "base_name": "cannellini beans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "canola oil": {
+    "original": "canola oil",
+    "base_name": "canola oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "capers": {
+    "original": "capers",
+    "base_name": "capers",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cara cara orange": {
+    "original": "cara cara orange",
+    "base_name": "cara cara orange",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "carrot": {
+    "original": "carrot",
+    "base_name": "carrot",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "cashew sour cream": {
+    "original": "cashew sour cream",
+    "base_name": "cashew sour cream",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cashews": {
+    "original": "cashews",
+    "base_name": "cashews",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cauliflower": {
+    "original": "cauliflower",
+    "base_name": "cauliflower",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "cauliflower florets": {
+    "original": "cauliflower florets",
+    "base_name": "cauliflower",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "cayenne": {
+    "original": "cayenne",
+    "base_name": "cayenne pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "cayenne pepper": {
+    "original": "cayenne pepper",
+    "base_name": "cayenne pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "cayenne powder": {
+    "original": "cayenne powder",
+    "base_name": "cayenne pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "celery": {
+    "original": "celery",
+    "base_name": "celery",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "celery rib": {
+    "original": "celery rib",
+    "base_name": "celery",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "celery seed": {
+    "original": "celery seed",
+    "base_name": "celery seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "celery stalk": {
+    "original": "celery stalk",
+    "base_name": "celery",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "champagne vinegar": {
+    "original": "champagne vinegar",
+    "base_name": "champagne vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cheddar cheese": {
+    "original": "cheddar cheese",
+    "base_name": "cheddar cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cheese tortellini": {
+    "original": "cheese tortellini",
+    "base_name": "cheese tortellini",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cherries": {
+    "original": "cherries",
+    "base_name": "cherries",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "cherry or grape tomatoes": {
+    "original": "cherry or grape tomatoes",
+    "base_name": "cherry tomatoes",
+    "form": "fresh",
+    "is_compound": true,
+    "parts": [
+      "cherry tomatoes",
+      "grape tomatoes"
+    ]
+  },
+  "cherry tomatoes": {
+    "original": "cherry tomatoes",
+    "base_name": "cherry tomatoes",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "chia seeds": {
+    "original": "chia seeds",
+    "base_name": "chia seeds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chicken flavored couscous": {
+    "original": "chicken flavored couscous",
+    "base_name": "couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chickpea liquid (aquafaba)": {
+    "original": "chickpea liquid (aquafaba)",
+    "base_name": "aquafaba",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chickpeas": {
+    "original": "chickpeas",
+    "base_name": "chickpeas",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chile powder": {
+    "original": "chile powder",
+    "base_name": "chili powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "chili flakes": {
+    "original": "chili flakes",
+    "base_name": "chili flakes",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chili powder": {
+    "original": "chili powder",
+    "base_name": "chili powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "chipotle chili powder": {
+    "original": "chipotle chili powder",
+    "base_name": "chipotle chili powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "chipotle pepper": {
+    "original": "chipotle pepper",
+    "base_name": "chipotle pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chipotle pepper in adobo sauce": {
+    "original": "chipotle pepper in adobo sauce",
+    "base_name": "chipotle pepper in adobo",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "chive and onion cream cheese spread": {
+    "original": "chive and onion cream cheese spread",
+    "base_name": "chive and onion cream cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chives": {
+    "original": "chives",
+    "base_name": "chives",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "chocolate chips": {
+    "original": "chocolate chips",
+    "base_name": "chocolate chips",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "chopped nuts or rolled oats": {
+    "original": "chopped nuts or rolled oats",
+    "base_name": "nuts",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "nuts",
+      "rolled oats"
+    ]
+  },
+  "cider vinegar": {
+    "original": "cider vinegar",
+    "base_name": "apple cider vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cilantro": {
+    "original": "cilantro",
+    "base_name": "cilantro",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "cinnamon": {
+    "original": "cinnamon",
+    "base_name": "cinnamon",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "cinnamon sugar": {
+    "original": "cinnamon sugar",
+    "base_name": "cinnamon sugar",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "cinnamon",
+      "sugar"
+    ]
+  },
+  "classic coleslaw mix": {
+    "original": "classic coleslaw mix",
+    "base_name": "coleslaw mix",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cloves": {
+    "original": "cloves",
+    "base_name": "cloves",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coarse salt": {
+    "original": "coarse salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coarse sea salt": {
+    "original": "coarse sea salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cocoa powder": {
+    "original": "cocoa powder",
+    "base_name": "cocoa powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut aminos": {
+    "original": "coconut aminos",
+    "base_name": "coconut aminos",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut flakes": {
+    "original": "coconut flakes",
+    "base_name": "coconut flakes",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut milk": {
+    "original": "coconut milk",
+    "base_name": "coconut milk",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut oil": {
+    "original": "coconut oil",
+    "base_name": "coconut oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut oil or vegetable oil": {
+    "original": "coconut oil or vegetable oil",
+    "base_name": "coconut oil",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "coconut oil",
+      "vegetable oil"
+    ]
+  },
+  "coconut or olive oil": {
+    "original": "coconut or olive oil",
+    "base_name": "coconut oil",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "coconut oil",
+      "olive oil"
+    ]
+  },
+  "confectioners' sugar": {
+    "original": "confectioners' sugar",
+    "base_name": "powdered sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cooked jasmine rice or naan": {
+    "original": "cooked jasmine rice or naan",
+    "base_name": "jasmine rice",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "jasmine rice",
+      "naan"
+    ]
+  },
+  "cooked quinoa": {
+    "original": "cooked quinoa",
+    "base_name": "quinoa",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cooked rice": {
+    "original": "cooked rice",
+    "base_name": "rice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coriander": {
+    "original": "coriander",
+    "base_name": "coriander",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coriander powder": {
+    "original": "coriander powder",
+    "base_name": "coriander",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "corn": {
+    "original": "corn",
+    "base_name": "corn",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "corn kernels": {
+    "original": "corn kernels",
+    "base_name": "corn",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "corn on the cob": {
+    "original": "corn on the cob",
+    "base_name": "corn",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "corn starch": {
+    "original": "corn starch",
+    "base_name": "cornstarch",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "corn tortilla": {
+    "original": "corn tortilla",
+    "base_name": "corn tortilla",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cornstarch": {
+    "original": "cornstarch",
+    "base_name": "cornstarch",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cotija cheese": {
+    "original": "cotija cheese",
+    "base_name": "cotija cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cotija cheese or feta": {
+    "original": "cotija cheese or feta",
+    "base_name": "cotija cheese",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "cotija cheese",
+      "feta cheese"
+    ]
+  },
+  "couscous": {
+    "original": "couscous",
+    "base_name": "couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cracked black pepper": {
+    "original": "cracked black pepper",
+    "base_name": "black pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "craisins": {
+    "original": "craisins",
+    "base_name": "cranberries",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "cranberries": {
+    "original": "cranberries",
+    "base_name": "cranberries",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "cranberry juice": {
+    "original": "cranberry juice",
+    "base_name": "cranberry juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cream": {
+    "original": "cream",
+    "base_name": "cream",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cream cheese": {
+    "original": "cream cheese",
+    "base_name": "cream cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cream of tartar": {
+    "original": "cream of tartar",
+    "base_name": "cream of tartar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "creamy natural peanut butter": {
+    "original": "creamy natural peanut butter",
+    "base_name": "peanut butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "creamy peanut butter": {
+    "original": "creamy peanut butter",
+    "base_name": "peanut butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cremini mushrooms": {
+    "original": "cremini mushrooms",
+    "base_name": "cremini mushroom",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "crisp brown rice cereal": {
+    "original": "crisp brown rice cereal",
+    "base_name": "brown rice cereal",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "crumbled goat cheese, toasted nuts and/or raisins": {
+    "original": "crumbled goat cheese, toasted nuts and/or raisins",
+    "base_name": "goat cheese",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "goat cheese",
+      "nuts",
+      "raisins"
+    ]
+  },
+  "crushed red pepper": {
+    "original": "crushed red pepper",
+    "base_name": "red pepper flakes",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "crushed red pepper flakes": {
+    "original": "crushed red pepper flakes",
+    "base_name": "red pepper flakes",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "crusty bread": {
+    "original": "crusty bread",
+    "base_name": "bread",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "crystallized ginger": {
+    "original": "crystallized ginger",
+    "base_name": "crystallized ginger",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cucumber": {
+    "original": "cucumber",
+    "base_name": "cucumber",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cumin": {
+    "original": "cumin",
+    "base_name": "cumin",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cumin powder": {
+    "original": "cumin powder",
+    "base_name": "cumin",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "curly-leaf spinach": {
+    "original": "curly-leaf spinach",
+    "base_name": "spinach",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "curry paste": {
+    "original": "curry paste",
+    "base_name": "curry paste",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "curry powder": {
+    "original": "curry powder",
+    "base_name": "curry powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dark brown sugar": {
+    "original": "dark brown sugar",
+    "base_name": "brown sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "diced fire roasted tomatoes": {
+    "original": "diced fire roasted tomatoes",
+    "base_name": "fire roasted tomatoes",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced green chiles": {
+    "original": "diced green chiles",
+    "base_name": "green chiles",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced mushroom": {
+    "original": "diced mushroom",
+    "base_name": "mushroom",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced tomato": {
+    "original": "diced tomato",
+    "base_name": "tomato",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced tomatoes": {
+    "original": "diced tomatoes",
+    "base_name": "tomatoes",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced tomatoes in juice": {
+    "original": "diced tomatoes in juice",
+    "base_name": "tomatoes",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced tomatoes with chilies": {
+    "original": "diced tomatoes with chilies",
+    "base_name": "tomatoes with green chiles",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "diced tomatoes with chilis": {
+    "original": "diced tomatoes with chilis",
+    "base_name": "tomatoes with green chiles",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "dijon mustard": {
+    "original": "dijon mustard",
+    "base_name": "dijon mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dill": {
+    "original": "dill",
+    "base_name": "dill",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "dill pickle": {
+    "original": "dill pickle",
+    "base_name": "dill pickle",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ditalini pasta": {
+    "original": "ditalini pasta",
+    "base_name": "ditalini",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dried apricots": {
+    "original": "dried apricots",
+    "base_name": "apricots",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried basil": {
+    "original": "dried basil",
+    "base_name": "basil",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried cherries": {
+    "original": "dried cherries",
+    "base_name": "cherries",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried chickpeas": {
+    "original": "dried chickpeas",
+    "base_name": "chickpea",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried cranberries": {
+    "original": "dried cranberries",
+    "base_name": "cranberry",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried cranberries (craisins)": {
+    "original": "dried cranberries (craisins)",
+    "base_name": "cranberry",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried cranberries or fresh or frozen berries": {
+    "original": "dried cranberries or fresh or frozen berries",
+    "base_name": "cranberry",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried dates": {
+    "original": "dried dates",
+    "base_name": "date",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried dill": {
+    "original": "dried dill",
+    "base_name": "dill",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried fenugreek leaves": {
+    "original": "dried fenugreek leaves",
+    "base_name": "fenugreek leaf",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried figs": {
+    "original": "dried figs",
+    "base_name": "fig",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried lentils": {
+    "original": "dried lentils",
+    "base_name": "lentil",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried mission figs": {
+    "original": "dried mission figs",
+    "base_name": "fig",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried oregano": {
+    "original": "dried oregano",
+    "base_name": "oregano",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried parsley": {
+    "original": "dried parsley",
+    "base_name": "parsley",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried red lentils": {
+    "original": "dried red lentils",
+    "base_name": "red lentil",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried rosemary": {
+    "original": "dried rosemary",
+    "base_name": "rosemary",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried sage": {
+    "original": "dried sage",
+    "base_name": "sage",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dried thyme": {
+    "original": "dried thyme",
+    "base_name": "thyme",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dry bread crumbs": {
+    "original": "dry bread crumbs",
+    "base_name": "bread crumb",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dry cannellini beans": {
+    "original": "dry cannellini beans",
+    "base_name": "cannellini bean",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dry mustard powder": {
+    "original": "dry mustard powder",
+    "base_name": "mustard powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "dry oatmeal": {
+    "original": "dry oatmeal",
+    "base_name": "oat",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dry parsley": {
+    "original": "dry parsley",
+    "base_name": "parsley",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "dry white wine": {
+    "original": "dry white wine",
+    "base_name": "white wine",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dry white wine or vegetable stock": {
+    "original": "dry white wine or vegetable stock",
+    "base_name": "white wine",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "earth balance or butter": {
+    "original": "earth balance or butter",
+    "base_name": "butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "edamame": {
+    "original": "edamame",
+    "base_name": "edamame",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "egg": {
+    "original": "egg",
+    "base_name": "egg",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "egg white": {
+    "original": "egg white",
+    "base_name": "egg white",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "eggs": {
+    "original": "eggs",
+    "base_name": "egg",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "english cucumber": {
+    "original": "english cucumber",
+    "base_name": "english cucumber",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "extra firm tofu": {
+    "original": "extra firm tofu",
+    "base_name": "tofu",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "extra shredded cheese": {
+    "original": "extra shredded cheese",
+    "base_name": "shredded cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "extra virgin olive oil": {
+    "original": "extra virgin olive oil",
+    "base_name": "olive oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "extra-virgin olive oil": {
+    "original": "extra-virgin olive oil",
+    "base_name": "olive oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "farro": {
+    "original": "farro",
+    "base_name": "farro",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fennel": {
+    "original": "fennel",
+    "base_name": "fennel",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fennel bulb": {
+    "original": "fennel bulb",
+    "base_name": "fennel",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fennel fronds": {
+    "original": "fennel fronds",
+    "base_name": "fennel",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fennel seeds": {
+    "original": "fennel seeds",
+    "base_name": "fennel seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "feta": {
+    "original": "feta",
+    "base_name": "feta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "feta cheese": {
+    "original": "feta cheese",
+    "base_name": "feta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fine grain sea salt": {
+    "original": "fine grain sea salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fine salt": {
+    "original": "fine salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fine sea salt": {
+    "original": "fine sea salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fine sea salt and freshly ground black pepper": {
+    "original": "fine sea salt and freshly ground black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "fine sea salt and freshly-ground black pepper": {
+    "original": "fine sea salt and freshly-ground black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "fire roasted diced tomatoes": {
+    "original": "fire roasted diced tomatoes",
+    "base_name": "fire roasted tomato",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "fire roasted diced tomatoes with green chilies (rotel)": {
+    "original": "fire roasted diced tomatoes with green chilies (rotel)",
+    "base_name": "diced tomato with green chili",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "fire roasted tomatoes": {
+    "original": "fire roasted tomatoes",
+    "base_name": "fire roasted tomato",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "fire roasted whole tomatoes": {
+    "original": "fire roasted whole tomatoes",
+    "base_name": "fire roasted tomato",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "flaky salt": {
+    "original": "flaky salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "flat leaf italian parsley": {
+    "original": "flat leaf italian parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "flat leaf parsley": {
+    "original": "flat leaf parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "flat-leaf parsley": {
+    "original": "flat-leaf parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "flour": {
+    "original": "flour",
+    "base_name": "flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "flour tortilla": {
+    "original": "flour tortilla",
+    "base_name": "flour tortilla",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fontina": {
+    "original": "fontina",
+    "base_name": "fontina",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "freeze-dried berries": {
+    "original": "freeze-dried berries",
+    "base_name": "berry",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "fregola": {
+    "original": "fregola",
+    "base_name": "fregola",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fregola pasta": {
+    "original": "fregola pasta",
+    "base_name": "fregola",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "french bread": {
+    "original": "french bread",
+    "base_name": "french bread",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "french lentils": {
+    "original": "french lentils",
+    "base_name": "french lentils",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh baby spinach": {
+    "original": "fresh baby spinach",
+    "base_name": "spinach",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh basil": {
+    "original": "fresh basil",
+    "base_name": "basil",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh basil leaves": {
+    "original": "fresh basil leaves",
+    "base_name": "basil",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh chives": {
+    "original": "fresh chives",
+    "base_name": "chives",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh cilantro": {
+    "original": "fresh cilantro",
+    "base_name": "cilantro",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh coriander": {
+    "original": "fresh coriander",
+    "base_name": "cilantro",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh dill": {
+    "original": "fresh dill",
+    "base_name": "dill",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh flat leaf parsley": {
+    "original": "fresh flat leaf parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh ginger": {
+    "original": "fresh ginger",
+    "base_name": "ginger",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh herbs": {
+    "original": "fresh herbs",
+    "base_name": "herbs",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh herbs (mint and parsley)": {
+    "original": "fresh herbs (mint and parsley)",
+    "base_name": "mint and parsley",
+    "form": "fresh",
+    "is_compound": true,
+    "parts": [
+      "mint",
+      "parsley"
+    ]
+  },
+  "fresh italian parsley": {
+    "original": "fresh italian parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh italian parsley leaves": {
+    "original": "fresh italian parsley leaves",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh lemon and lime juice": {
+    "original": "fresh lemon and lime juice",
+    "base_name": "lemon and lime juice",
+    "form": "fresh",
+    "is_compound": true,
+    "parts": [
+      "lemon juice",
+      "lime juice"
+    ]
+  },
+  "fresh lemon juice": {
+    "original": "fresh lemon juice",
+    "base_name": "lemon juice",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh lime juice": {
+    "original": "fresh lime juice",
+    "base_name": "lime juice",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh mint": {
+    "original": "fresh mint",
+    "base_name": "mint",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh oregano": {
+    "original": "fresh oregano",
+    "base_name": "oregano",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh parsley": {
+    "original": "fresh parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh parsley and mint": {
+    "original": "fresh parsley and mint",
+    "base_name": "parsley and mint",
+    "form": "fresh",
+    "is_compound": true,
+    "parts": [
+      "parsley",
+      "mint"
+    ]
+  },
+  "fresh parsley leaves": {
+    "original": "fresh parsley leaves",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh sage": {
+    "original": "fresh sage",
+    "base_name": "sage",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh spinach": {
+    "original": "fresh spinach",
+    "base_name": "spinach",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh thyme": {
+    "original": "fresh thyme",
+    "base_name": "thyme",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh thyme leaves": {
+    "original": "fresh thyme leaves",
+    "base_name": "thyme",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "fresh whole wheat bread crumbs": {
+    "original": "fresh whole wheat bread crumbs",
+    "base_name": "whole wheat bread crumbs",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "frozen corn": {
+    "original": "frozen corn",
+    "base_name": "corn",
+    "form": "frozen",
+    "is_compound": false,
+    "parts": []
+  },
+  "frozen spinach": {
+    "original": "frozen spinach",
+    "base_name": "spinach",
+    "form": "frozen",
+    "is_compound": false,
+    "parts": []
+  },
+  "fruit": {
+    "original": "fruit",
+    "base_name": "fruit",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "full fat evaporated milk": {
+    "original": "full fat evaporated milk",
+    "base_name": "evaporated milk",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "garam masala": {
+    "original": "garam masala",
+    "base_name": "garam masala",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "garbanzo beans": {
+    "original": "garbanzo beans",
+    "base_name": "chickpeas",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "garlic": {
+    "original": "garlic",
+    "base_name": "garlic",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "garlic clove": {
+    "original": "garlic clove",
+    "base_name": "garlic",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "garlic hummus": {
+    "original": "garlic hummus",
+    "base_name": "hummus",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "garlic powder": {
+    "original": "garlic powder",
+    "base_name": "garlic powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "garlic salt": {
+    "original": "garlic salt",
+    "base_name": "garlic salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "gemelli pasta": {
+    "original": "gemelli pasta",
+    "base_name": "gemelli pasta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ginger": {
+    "original": "ginger",
+    "base_name": "ginger",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "gluten-free flour blend": {
+    "original": "gluten-free flour blend",
+    "base_name": "gluten-free flour blend",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "goat cheese": {
+    "original": "goat cheese",
+    "base_name": "goat cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "goat or feta cheese": {
+    "original": "goat or feta cheese",
+    "base_name": "goat cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "golden delicious apple": {
+    "original": "golden delicious apple",
+    "base_name": "golden delicious apple",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "golden raisins": {
+    "original": "golden raisins",
+    "base_name": "golden raisins",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "gouda cheese": {
+    "original": "gouda cheese",
+    "base_name": "gouda cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "granulated onion": {
+    "original": "granulated onion",
+    "base_name": "onion powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "granulated sugar": {
+    "original": "granulated sugar",
+    "base_name": "sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "grapefruit": {
+    "original": "grapefruit",
+    "base_name": "grapefruit",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "grated parmesan": {
+    "original": "grated parmesan",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "grated parmesan cheese": {
+    "original": "grated parmesan cheese",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "greek vinaigrette": {
+    "original": "greek vinaigrette",
+    "base_name": "greek vinaigrette",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "greek yogurt": {
+    "original": "greek yogurt",
+    "base_name": "greek yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green beans": {
+    "original": "green beans",
+    "base_name": "green beans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green bell pepper": {
+    "original": "green bell pepper",
+    "base_name": "green bell pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green cabbage": {
+    "original": "green cabbage",
+    "base_name": "green cabbage",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green lentils": {
+    "original": "green lentils",
+    "base_name": "green lentils",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green onion": {
+    "original": "green onion",
+    "base_name": "green onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green pepper": {
+    "original": "green pepper",
+    "base_name": "green bell pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "greens": {
+    "original": "greens",
+    "base_name": "greens",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ground allspice or cloves": {
+    "original": "ground allspice or cloves",
+    "base_name": "allspice",
+    "form": "ground",
+    "is_compound": true,
+    "parts": [
+      "allspice",
+      "cloves"
+    ]
+  },
+  "ground black pepper": {
+    "original": "ground black pepper",
+    "base_name": "black pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground cardamom": {
+    "original": "ground cardamom",
+    "base_name": "cardamom",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground cayenne pepper": {
+    "original": "ground cayenne pepper",
+    "base_name": "cayenne pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground cinnamon": {
+    "original": "ground cinnamon",
+    "base_name": "cinnamon",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground cloves": {
+    "original": "ground cloves",
+    "base_name": "cloves",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground coriander": {
+    "original": "ground coriander",
+    "base_name": "coriander",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground cumin": {
+    "original": "ground cumin",
+    "base_name": "cumin",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground flaxseed": {
+    "original": "ground flaxseed",
+    "base_name": "flaxseed",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground flaxseed meal": {
+    "original": "ground flaxseed meal",
+    "base_name": "flaxseed",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground ginger": {
+    "original": "ground ginger",
+    "base_name": "ginger",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground nutmeg": {
+    "original": "ground nutmeg",
+    "base_name": "nutmeg",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground paprika": {
+    "original": "ground paprika",
+    "base_name": "paprika",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground pepper": {
+    "original": "ground pepper",
+    "base_name": "black pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground sumac": {
+    "original": "ground sumac",
+    "base_name": "sumac",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ground turmeric": {
+    "original": "ground turmeric",
+    "base_name": "turmeric",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "gruyère cheese": {
+    "original": "gruyère cheese",
+    "base_name": "gruyère cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "guacamole or salsa": {
+    "original": "guacamole or salsa",
+    "base_name": "guacamole",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "guacamole",
+      "salsa"
+    ]
+  },
+  "hamburger bun": {
+    "original": "hamburger bun",
+    "base_name": "hamburger bun",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "hamburger buns": {
+    "original": "hamburger buns",
+    "base_name": "hamburger bun",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "hardy greens": {
+    "original": "hardy greens",
+    "base_name": "hardy greens",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "hazelnuts": {
+    "original": "hazelnuts",
+    "base_name": "hazelnuts",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "heavy cream": {
+    "original": "heavy cream",
+    "base_name": "heavy cream",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "hemp seeds": {
+    "original": "hemp seeds",
+    "base_name": "hemp seeds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "herbes de provence": {
+    "original": "herbes de provence",
+    "base_name": "herbes de provence",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "himalayan sea salt": {
+    "original": "himalayan sea salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "honey": {
+    "original": "honey",
+    "base_name": "honey",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "hot sauce": {
+    "original": "hot sauce",
+    "base_name": "hot sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "hummus": {
+    "original": "hummus",
+    "base_name": "hummus",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ice": {
+    "original": "ice",
+    "base_name": "ice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ice cold water": {
+    "original": "ice cold water",
+    "base_name": "water",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "israeli couscous": {
+    "original": "israeli couscous",
+    "base_name": "pearled couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "italian dressing": {
+    "original": "italian dressing",
+    "base_name": "italian dressing",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "italian eggplant": {
+    "original": "italian eggplant",
+    "base_name": "eggplant",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "italian parsley leaves": {
+    "original": "italian parsley leaves",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "italian seasoning": {
+    "original": "italian seasoning",
+    "base_name": "italian seasoning",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "italian-flavored bread crumbs": {
+    "original": "italian-flavored bread crumbs",
+    "base_name": "bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "jalapeno": {
+    "original": "jalapeno",
+    "base_name": "jalapeño",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "jalapeno pepper": {
+    "original": "jalapeno pepper",
+    "base_name": "jalapeño",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "jalapeño": {
+    "original": "jalapeño",
+    "base_name": "jalapeño",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "jalapeño pepper": {
+    "original": "jalapeño pepper",
+    "base_name": "jalapeño",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "jicama": {
+    "original": "jicama",
+    "base_name": "jicama",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "jumbo pasta shells": {
+    "original": "jumbo pasta shells",
+    "base_name": "jumbo pasta shells",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kalamata olive": {
+    "original": "kalamata olive",
+    "base_name": "kalamata olives",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kalamata olives": {
+    "original": "kalamata olives",
+    "base_name": "kalamata olives",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kale": {
+    "original": "kale",
+    "base_name": "kale",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "kale leaves": {
+    "original": "kale leaves",
+    "base_name": "kale",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "kashmiri chili powder": {
+    "original": "kashmiri chili powder",
+    "base_name": "kashmiri chili powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "ketchup": {
+    "original": "ketchup",
+    "base_name": "ketchup",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kidney beans": {
+    "original": "kidney beans",
+    "base_name": "kidney beans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kiwifruit": {
+    "original": "kiwifruit",
+    "base_name": "kiwi",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kosher salt": {
+    "original": "kosher salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kosher salt and black pepper": {
+    "original": "kosher salt and black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "kosher salt and freshly cracked black pepper": {
+    "original": "kosher salt and freshly cracked black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "kosher salt and freshly ground black pepper": {
+    "original": "kosher salt and freshly ground black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "kosher salt and freshly ground pepper": {
+    "original": "kosher salt and freshly ground pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "kosher salt and ground black pepper": {
+    "original": "kosher salt and ground black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "kosher salt and pepper": {
+    "original": "kosher salt and pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "lacinato kale": {
+    "original": "lacinato kale",
+    "base_name": "kale",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "large egg": {
+    "original": "large egg",
+    "base_name": "egg",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "large elbow macaroni": {
+    "original": "large elbow macaroni",
+    "base_name": "elbow macaroni",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "large flake oats": {
+    "original": "large flake oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lebanese cucumber": {
+    "original": "lebanese cucumber",
+    "base_name": "cucumber",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "leek": {
+    "original": "leek",
+    "base_name": "leek",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "legume pasta": {
+    "original": "legume pasta",
+    "base_name": "legume pasta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lemon": {
+    "original": "lemon",
+    "base_name": "lemon",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lemon juice": {
+    "original": "lemon juice",
+    "base_name": "lemon juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lemon pie filling": {
+    "original": "lemon pie filling",
+    "base_name": "lemon pie filling",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "lemon zest": {
+    "original": "lemon zest",
+    "base_name": "lemon",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lentils": {
+    "original": "lentils",
+    "base_name": "lentils",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "lettuce": {
+    "original": "lettuce",
+    "base_name": "lettuce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lettuce and barbecue sauce": {
+    "original": "lettuce and barbecue sauce",
+    "base_name": "lettuce and barbecue sauce",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "lettuce",
+      "barbecue sauce"
+    ]
+  },
+  "levain or country-style sourdough bread": {
+    "original": "levain or country-style sourdough bread",
+    "base_name": "sourdough bread",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "light brown sugar": {
+    "original": "light brown sugar",
+    "base_name": "brown sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "light coconut milk": {
+    "original": "light coconut milk",
+    "base_name": "coconut milk",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "light cream cheese": {
+    "original": "light cream cheese",
+    "base_name": "cream cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "light mayonnaise": {
+    "original": "light mayonnaise",
+    "base_name": "mayonnaise",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "light olive oil": {
+    "original": "light olive oil",
+    "base_name": "olive oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "light spelt flour": {
+    "original": "light spelt flour",
+    "base_name": "spelt flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "light-brown sugar": {
+    "original": "light-brown sugar",
+    "base_name": "brown sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lime": {
+    "original": "lime",
+    "base_name": "lime",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lime juice": {
+    "original": "lime juice",
+    "base_name": "lime juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lime wedge": {
+    "original": "lime wedge",
+    "base_name": "lime",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "lime zest": {
+    "original": "lime zest",
+    "base_name": "lime",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "liquid smoke": {
+    "original": "liquid smoke",
+    "base_name": "liquid smoke",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low sodium vegetable broth": {
+    "original": "low sodium vegetable broth",
+    "base_name": "vegetable broth",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low sodium vegetable stock": {
+    "original": "low sodium vegetable stock",
+    "base_name": "vegetable broth",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-fat feta cheese": {
+    "original": "low-fat feta cheese",
+    "base_name": "feta cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-fat mayonnaise": {
+    "original": "low-fat mayonnaise",
+    "base_name": "mayonnaise",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-fat milk": {
+    "original": "low-fat milk",
+    "base_name": "low-fat milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-fat plain cream cheese": {
+    "original": "low-fat plain cream cheese",
+    "base_name": "cream cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-fat ricotta cheese": {
+    "original": "low-fat ricotta cheese",
+    "base_name": "ricotta cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-moisture mozzarella": {
+    "original": "low-moisture mozzarella",
+    "base_name": "mozzarella",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-sodium soy sauce": {
+    "original": "low-sodium soy sauce",
+    "base_name": "soy sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "low-sodium vegetable broth": {
+    "original": "low-sodium vegetable broth",
+    "base_name": "vegetable broth",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mandarin orange": {
+    "original": "mandarin orange",
+    "base_name": "mandarin orange",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mango": {
+    "original": "mango",
+    "base_name": "mango",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "maple syrup": {
+    "original": "maple syrup",
+    "base_name": "maple syrup",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "marinara sauce": {
+    "original": "marinara sauce",
+    "base_name": "marinara sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "marinated artichoke hearts": {
+    "original": "marinated artichoke hearts",
+    "base_name": "artichoke hearts",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "mascarpone cheese": {
+    "original": "mascarpone cheese",
+    "base_name": "mascarpone cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mashed banana": {
+    "original": "mashed banana",
+    "base_name": "banana",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mayonnaise": {
+    "original": "mayonnaise",
+    "base_name": "mayonnaise",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "medjool date": {
+    "original": "medjool date",
+    "base_name": "medjool date",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "medjool dates": {
+    "original": "medjool dates",
+    "base_name": "medjool date",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "medjool dates or dried cranberries": {
+    "original": "medjool dates or dried cranberries",
+    "base_name": "medjool date",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "medjool date",
+      "dried cranberries"
+    ]
+  },
+  "mexican cheese blend": {
+    "original": "mexican cheese blend",
+    "base_name": "mexican cheese blend",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "milk": {
+    "original": "milk",
+    "base_name": "milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "milk or water": {
+    "original": "milk or water",
+    "base_name": "milk",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "milk",
+      "water"
+    ]
+  },
+  "mini chocolate chips": {
+    "original": "mini chocolate chips",
+    "base_name": "chocolate chips",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "minneola orange": {
+    "original": "minneola orange",
+    "base_name": "minneola orange",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mint": {
+    "original": "mint",
+    "base_name": "mint",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "mint leaves": {
+    "original": "mint leaves",
+    "base_name": "mint",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "mixed arugula, kale and green cabbage": {
+    "original": "mixed arugula, kale and green cabbage",
+    "base_name": "mixed greens",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "arugula",
+      "kale",
+      "green cabbage"
+    ]
+  },
+  "mixed greens": {
+    "original": "mixed greens",
+    "base_name": "mixed greens",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mixed greens or spinach": {
+    "original": "mixed greens or spinach",
+    "base_name": "mixed greens",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "mixed greens",
+      "spinach"
+    ]
+  },
+  "mixed vegetables": {
+    "original": "mixed vegetables",
+    "base_name": "mixed vegetables",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mixed vegetables (broccoli, carrots, red bell pepper)": {
+    "original": "mixed vegetables (broccoli, carrots, red bell pepper)",
+    "base_name": "mixed vegetables",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "broccoli",
+      "carrot",
+      "red bell pepper"
+    ]
+  },
+  "molasses": {
+    "original": "molasses",
+    "base_name": "molasses",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mozzarella": {
+    "original": "mozzarella",
+    "base_name": "mozzarella",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mozzarella cheese": {
+    "original": "mozzarella cheese",
+    "base_name": "mozzarella cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mozzarella, fontina or provolone cheese": {
+    "original": "mozzarella, fontina or provolone cheese",
+    "base_name": "mozzarella cheese",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "mozzarella cheese",
+      "fontina cheese",
+      "provolone cheese"
+    ]
+  },
+  "multi-grain sandwich bread": {
+    "original": "multi-grain sandwich bread",
+    "base_name": "multigrain sandwich bread",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mushroom": {
+    "original": "mushroom",
+    "base_name": "mushroom",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "mushrooms": {
+    "original": "mushrooms",
+    "base_name": "mushroom",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "mustard": {
+    "original": "mustard",
+    "base_name": "mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mustard seed": {
+    "original": "mustard seed",
+    "base_name": "mustard seed",
+    "form": "whole",
+    "is_compound": false,
+    "parts": []
+  },
+  "natural buttery spread": {
+    "original": "natural buttery spread",
+    "base_name": "buttery spread",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "natural creamy peanut butter": {
+    "original": "natural creamy peanut butter",
+    "base_name": "peanut butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "natural peanut or almond butter": {
+    "original": "natural peanut or almond butter",
+    "base_name": "peanut butter",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "peanut butter",
+      "almond butter"
+    ]
+  },
+  "navel orange": {
+    "original": "navel orange",
+    "base_name": "orange",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "nectarine": {
+    "original": "nectarine",
+    "base_name": "nectarine",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "neem powder": {
+    "original": "neem powder",
+    "base_name": "neem powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "neutral oil": {
+    "original": "neutral oil",
+    "base_name": "vegetable oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "non-fat milk": {
+    "original": "non-fat milk",
+    "base_name": "nonfat milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "nonfat plain greek yogurt": {
+    "original": "nonfat plain greek yogurt",
+    "base_name": "nonfat greek yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "nonfat plain greek-style yogurt": {
+    "original": "nonfat plain greek-style yogurt",
+    "base_name": "nonfat greek yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "nonhydrogenated margarine": {
+    "original": "nonhydrogenated margarine",
+    "base_name": "margarine",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "nut based fresh mozzarella or feta": {
+    "original": "nut based fresh mozzarella or feta",
+    "base_name": "vegan mozzarella cheese",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "vegan mozzarella cheese",
+      "vegan feta cheese"
+    ]
+  },
+  "nutmeg": {
+    "original": "nutmeg",
+    "base_name": "nutmeg",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "nutritional yeast": {
+    "original": "nutritional yeast",
+    "base_name": "nutritional yeast",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "oat flour": {
+    "original": "oat flour",
+    "base_name": "oat flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "oil": {
+    "original": "oil",
+    "base_name": "vegetable oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "oil marinated kalamata olives": {
+    "original": "oil marinated kalamata olives",
+    "base_name": "kalamata olive",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "old-fashioned oats": {
+    "original": "old-fashioned oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "old-fashioned rolled oats": {
+    "original": "old-fashioned rolled oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "old-fashioned whole rolled oats": {
+    "original": "old-fashioned whole rolled oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "olive oil": {
+    "original": "olive oil",
+    "base_name": "olive oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "olive oil and garlic couscous": {
+    "original": "olive oil and garlic couscous",
+    "base_name": "couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "olive oil cooking spray": {
+    "original": "olive oil cooking spray",
+    "base_name": "olive oil cooking spray",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "onion": {
+    "original": "onion",
+    "base_name": "yellow onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "onion powder": {
+    "original": "onion powder",
+    "base_name": "onion powder",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "orange": {
+    "original": "orange",
+    "base_name": "orange",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "orange juice": {
+    "original": "orange juice",
+    "base_name": "orange juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "orange zest": {
+    "original": "orange zest",
+    "base_name": "orange",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "orecchiette pasta": {
+    "original": "orecchiette pasta",
+    "base_name": "orecchiette pasta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "oregano": {
+    "original": "oregano",
+    "base_name": "oregano",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "organic evaporated cane juice": {
+    "original": "organic evaporated cane juice",
+    "base_name": "cane sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "panko": {
+    "original": "panko",
+    "base_name": "panko bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "panko bread crumbs": {
+    "original": "panko bread crumbs",
+    "base_name": "panko bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "paprika": {
+    "original": "paprika",
+    "base_name": "paprika",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "parmesan": {
+    "original": "parmesan",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "parmesan cheese": {
+    "original": "parmesan cheese",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "parmesan cheese rind": {
+    "original": "parmesan cheese rind",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "parmesan rind": {
+    "original": "parmesan rind",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "parmigiano-reggiano cheese": {
+    "original": "parmigiano-reggiano cheese",
+    "base_name": "parmesan cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "parsley": {
+    "original": "parsley",
+    "base_name": "parsley",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "parsnip": {
+    "original": "parsnip",
+    "base_name": "parsnip",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "pasta cooking water": {
+    "original": "pasta cooking water",
+    "base_name": "water",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "peanut butter": {
+    "original": "peanut butter",
+    "base_name": "peanut butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "peanut oil": {
+    "original": "peanut oil",
+    "base_name": "peanut oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "peanuts": {
+    "original": "peanuts",
+    "base_name": "peanut",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pear": {
+    "original": "pear",
+    "base_name": "pear",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "pearl couscous": {
+    "original": "pearl couscous",
+    "base_name": "pearled couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pearled couscous mix": {
+    "original": "pearled couscous mix",
+    "base_name": "pearled couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pearled farro": {
+    "original": "pearled farro",
+    "base_name": "farro",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pecans": {
+    "original": "pecans",
+    "base_name": "pecan",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pecorino cheese": {
+    "original": "pecorino cheese",
+    "base_name": "pecorino cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "penne pasta": {
+    "original": "penne pasta",
+    "base_name": "penne pasta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pepitas": {
+    "original": "pepitas",
+    "base_name": "pepita",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pepper": {
+    "original": "pepper",
+    "base_name": "black pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pepper jack cheese": {
+    "original": "pepper jack cheese",
+    "base_name": "pepper jack cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "persian cucumber": {
+    "original": "persian cucumber",
+    "base_name": "persian cucumber",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pickle juice": {
+    "original": "pickle juice",
+    "base_name": "pickle juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pickled cucumber": {
+    "original": "pickled cucumber",
+    "base_name": "pickle",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pickled jalapeño": {
+    "original": "pickled jalapeño",
+    "base_name": "pickled jalapeño",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pickled red onion": {
+    "original": "pickled red onion",
+    "base_name": "pickled red onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pickled red onions": {
+    "original": "pickled red onions",
+    "base_name": "pickled red onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pickles, tabasco, quick pickled onions, jalapeños, extra mustard, coleslaw": {
+    "original": "pickles, tabasco, quick pickled onions, jalapeños, extra mustard, coleslaw",
+    "base_name": "pickle",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "pickle",
+      "tabasco sauce",
+      "pickled red onion",
+      "jalapeño",
+      "mustard",
+      "coleslaw"
+    ]
+  },
+  "pie shell": {
+    "original": "pie shell",
+    "base_name": "pie shell",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pine nut flavored couscous": {
+    "original": "pine nut flavored couscous",
+    "base_name": "couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pine nuts": {
+    "original": "pine nuts",
+    "base_name": "pine nut",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pink grapefruit": {
+    "original": "pink grapefruit",
+    "base_name": "grapefruit",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pink himalayan salt": {
+    "original": "pink himalayan salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pinto or navy beans": {
+    "original": "pinto or navy beans",
+    "base_name": "pinto bean",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pistachio": {
+    "original": "pistachio",
+    "base_name": "pistachio",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pistachios": {
+    "original": "pistachios",
+    "base_name": "pistachio",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pita bread": {
+    "original": "pita bread",
+    "base_name": "pita bread",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pitted kalamata olives": {
+    "original": "pitted kalamata olives",
+    "base_name": "kalamata olive",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plain bread crumbs": {
+    "original": "plain bread crumbs",
+    "base_name": "bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plain couscous": {
+    "original": "plain couscous",
+    "base_name": "couscous",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plain greek yogurt": {
+    "original": "plain greek yogurt",
+    "base_name": "greek yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plain nonfat greek yogurt": {
+    "original": "plain nonfat greek yogurt",
+    "base_name": "greek yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plant-based ground (beef-style crumbles)": {
+    "original": "plant-based ground (beef-style crumbles)",
+    "base_name": "plant-based ground beef",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plant-based ground beef (or 12 oz plant-based grounds plus 8 oz cremini mushrooms, finely chopped)": {
+    "original": "plant-based ground beef (or 12 oz plant-based grounds plus 8 oz cremini mushrooms, finely chopped)",
+    "base_name": "plant-based ground beef",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plant-based sweet italian sausage": {
+    "original": "plant-based sweet italian sausage",
+    "base_name": "plant-based italian sausage",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plant-based sweet italian sausage links": {
+    "original": "plant-based sweet italian sausage links",
+    "base_name": "plant-based italian sausage",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plum tomato": {
+    "original": "plum tomato",
+    "base_name": "plum tomato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "poppy seeds": {
+    "original": "poppy seeds",
+    "base_name": "poppy seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "portobello mushroom": {
+    "original": "portobello mushroom",
+    "base_name": "portobello mushroom",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "portobello mushroom cap": {
+    "original": "portobello mushroom cap",
+    "base_name": "portobello mushroom",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "potato": {
+    "original": "potato",
+    "base_name": "potato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "powdered sugar": {
+    "original": "powdered sugar",
+    "base_name": "powdered sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "provolone cheese": {
+    "original": "provolone cheese",
+    "base_name": "provolone cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "puffed cereal": {
+    "original": "puffed cereal",
+    "base_name": "puffed cereal",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pumpkin pie mix": {
+    "original": "pumpkin pie mix",
+    "base_name": "pumpkin pie mix",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "pumpkin pie spice": {
+    "original": "pumpkin pie spice",
+    "base_name": "pumpkin pie spice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pumpkin puree": {
+    "original": "pumpkin puree",
+    "base_name": "pumpkin puree",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "pumpkin purée": {
+    "original": "pumpkin purée",
+    "base_name": "pumpkin puree",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "pumpkin seed": {
+    "original": "pumpkin seed",
+    "base_name": "pumpkin seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pumpkin seeds": {
+    "original": "pumpkin seeds",
+    "base_name": "pumpkin seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pure almond extract": {
+    "original": "pure almond extract",
+    "base_name": "almond extract",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pure maple syrup": {
+    "original": "pure maple syrup",
+    "base_name": "maple syrup",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pure vanilla extract": {
+    "original": "pure vanilla extract",
+    "base_name": "vanilla extract",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "quartered artichoke hearts": {
+    "original": "quartered artichoke hearts",
+    "base_name": "artichoke heart",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "quick oats": {
+    "original": "quick oats",
+    "base_name": "quick oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "quinoa": {
+    "original": "quinoa",
+    "base_name": "quinoa",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "radish": {
+    "original": "radish",
+    "base_name": "radish",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raisins": {
+    "original": "raisins",
+    "base_name": "raisin",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raspberry jam": {
+    "original": "raspberry jam",
+    "base_name": "raspberry jam",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raw cashews": {
+    "original": "raw cashews",
+    "base_name": "cashew",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raw honey": {
+    "original": "raw honey",
+    "base_name": "honey",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raw pumpkin seeds": {
+    "original": "raw pumpkin seeds",
+    "base_name": "pumpkin seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raw walnut": {
+    "original": "raw walnut",
+    "base_name": "walnut",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red beet": {
+    "original": "red beet",
+    "base_name": "beet",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red bell pepper": {
+    "original": "red bell pepper",
+    "base_name": "red bell pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red cabbage": {
+    "original": "red cabbage",
+    "base_name": "red cabbage",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red capsicum": {
+    "original": "red capsicum",
+    "base_name": "red bell pepper",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red enchilada sauce": {
+    "original": "red enchilada sauce",
+    "base_name": "red enchilada sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red lentils": {
+    "original": "red lentils",
+    "base_name": "red lentil",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "red onion": {
+    "original": "red onion",
+    "base_name": "red onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red or white onion": {
+    "original": "red or white onion",
+    "base_name": "onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red pepper": {
+    "original": "red pepper",
+    "base_name": "red bell pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "red pepper flakes": {
+    "original": "red pepper flakes",
+    "base_name": "red pepper flakes",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "red quinoa": {
+    "original": "red quinoa",
+    "base_name": "red quinoa",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red wine vinegar": {
+    "original": "red wine vinegar",
+    "base_name": "red wine vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "reduced-fat plain yogurt": {
+    "original": "reduced-fat plain yogurt",
+    "base_name": "plain yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "reduced-fat sour cream": {
+    "original": "reduced-fat sour cream",
+    "base_name": "sour cream",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "reduced-sodium soy sauce": {
+    "original": "reduced-sodium soy sauce",
+    "base_name": "soy sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "refried beans": {
+    "original": "refried beans",
+    "base_name": "refried beans",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "refrigerated pie crusts": {
+    "original": "refrigerated pie crusts",
+    "base_name": "pie crust",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "refrigerated pizza dough": {
+    "original": "refrigerated pizza dough",
+    "base_name": "pizza dough",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "refrigerated spinach and cheese tortellini": {
+    "original": "refrigerated spinach and cheese tortellini",
+    "base_name": "spinach and cheese tortellini",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "rice vinegar": {
+    "original": "rice vinegar",
+    "base_name": "rice vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "rice wine vinegar": {
+    "original": "rice wine vinegar",
+    "base_name": "rice vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "roasted almonds": {
+    "original": "roasted almonds",
+    "base_name": "almonds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "roasted chickpeas": {
+    "original": "roasted chickpeas",
+    "base_name": "chickpeas",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "roasted pistachios": {
+    "original": "roasted pistachios",
+    "base_name": "pistachios",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "roasted red pepper": {
+    "original": "roasted red pepper",
+    "base_name": "roasted red pepper",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "roasted red peppers": {
+    "original": "roasted red peppers",
+    "base_name": "roasted red pepper",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "rolled oats": {
+    "original": "rolled oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "roma tomato": {
+    "original": "roma tomato",
+    "base_name": "roma tomato",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "romaine lettuce": {
+    "original": "romaine lettuce",
+    "base_name": "romaine lettuce",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "romano cheese": {
+    "original": "romano cheese",
+    "base_name": "romano cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "rosemary sprig": {
+    "original": "rosemary sprig",
+    "base_name": "rosemary",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "safflower oil": {
+    "original": "safflower oil",
+    "base_name": "safflower oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sage leaves": {
+    "original": "sage leaves",
+    "base_name": "sage",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "salad greens": {
+    "original": "salad greens",
+    "base_name": "salad greens",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "salsa": {
+    "original": "salsa",
+    "base_name": "salsa",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "salt": {
+    "original": "salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "salt and black pepper": {
+    "original": "salt and black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "salt and pepper": {
+    "original": "salt and pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "salt, black pepper, and chili flakes": {
+    "original": "salt, black pepper, and chili flakes",
+    "base_name": "salt, black pepper and red pepper flakes",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper",
+      "red pepper flakes"
+    ]
+  },
+  "salted butter": {
+    "original": "salted butter",
+    "base_name": "salted butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "salted caramel sauce": {
+    "original": "salted caramel sauce",
+    "base_name": "salted caramel sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sauce": {
+    "original": "sauce",
+    "base_name": "sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "scallion": {
+    "original": "scallion",
+    "base_name": "green onion",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "sea salt": {
+    "original": "sea salt",
+    "base_name": "salt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sea salt and black pepper": {
+    "original": "sea salt and black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "sea salt and freshly cracked pepper": {
+    "original": "sea salt and freshly cracked pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "sea salt and freshly ground black pepper": {
+    "original": "sea salt and freshly ground black pepper",
+    "base_name": "salt and black pepper",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "salt",
+      "black pepper"
+    ]
+  },
+  "seasoned bread crumbs": {
+    "original": "seasoned bread crumbs",
+    "base_name": "bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "seeded burger bun": {
+    "original": "seeded burger bun",
+    "base_name": "burger bun",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "self-raising flour": {
+    "original": "self-raising flour",
+    "base_name": "self-raising flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "serrano chile": {
+    "original": "serrano chile",
+    "base_name": "serrano pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "serrano pepper": {
+    "original": "serrano pepper",
+    "base_name": "serrano pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "sesame oil": {
+    "original": "sesame oil",
+    "base_name": "sesame oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sesame seeds": {
+    "original": "sesame seeds",
+    "base_name": "sesame seeds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "shallot": {
+    "original": "shallot",
+    "base_name": "shallot",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "sharp cheddar cheese": {
+    "original": "sharp cheddar cheese",
+    "base_name": "cheddar cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "shelled edamame": {
+    "original": "shelled edamame",
+    "base_name": "edamame",
+    "form": "frozen",
+    "is_compound": false,
+    "parts": []
+  },
+  "shelled pistachios": {
+    "original": "shelled pistachios",
+    "base_name": "pistachios",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sherry cooking wine": {
+    "original": "sherry cooking wine",
+    "base_name": "sherry",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sherry vinegar": {
+    "original": "sherry vinegar",
+    "base_name": "sherry vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "shredded carrot": {
+    "original": "shredded carrot",
+    "base_name": "carrot",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "shredded cheese": {
+    "original": "shredded cheese",
+    "base_name": "cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "shredded mexican cheese blend": {
+    "original": "shredded mexican cheese blend",
+    "base_name": "mexican cheese blend",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "shredded monterey jack cheese": {
+    "original": "shredded monterey jack cheese",
+    "base_name": "monterey jack cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "skim milk": {
+    "original": "skim milk",
+    "base_name": "skim milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sliced almonds": {
+    "original": "sliced almonds",
+    "base_name": "almonds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sliced water chestnuts": {
+    "original": "sliced water chestnuts",
+    "base_name": "water chestnut",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "slivered almonds": {
+    "original": "slivered almonds",
+    "base_name": "almond",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "smoked gouda": {
+    "original": "smoked gouda",
+    "base_name": "smoked gouda",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "smoked mozzarella": {
+    "original": "smoked mozzarella",
+    "base_name": "smoked mozzarella",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "smoked paprika": {
+    "original": "smoked paprika",
+    "base_name": "smoked paprika",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "smoked tofu": {
+    "original": "smoked tofu",
+    "base_name": "smoked tofu",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "smoky broth base (vegetable stock + smoked paprika + soy sauce + liquid smoke + bay leaves)": {
+    "original": "smoky broth base (vegetable stock + smoked paprika + soy sauce + liquid smoke + bay leaves)",
+    "base_name": "smoky broth base",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "vegetable stock",
+      "smoked paprika",
+      "soy sauce",
+      "liquid smoke",
+      "bay leaf"
+    ]
+  },
+  "smooth peanut butter": {
+    "original": "smooth peanut butter",
+    "base_name": "peanut butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "snap peas": {
+    "original": "snap peas",
+    "base_name": "snap pea",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "snow peas": {
+    "original": "snow peas",
+    "base_name": "snow pea",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "soft goat cheese": {
+    "original": "soft goat cheese",
+    "base_name": "goat cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sour cream": {
+    "original": "sour cream",
+    "base_name": "sour cream",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sour cream or greek yogurt": {
+    "original": "sour cream or greek yogurt",
+    "base_name": "sour cream",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "soy sauce": {
+    "original": "soy sauce",
+    "base_name": "soy sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "soy sauce (or a vegetarian/anchovy-free worcestershire sauce)": {
+    "original": "soy sauce (or a vegetarian/anchovy-free worcestershire sauce)",
+    "base_name": "soy sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "spaghetti squash": {
+    "original": "spaghetti squash",
+    "base_name": "spaghetti squash",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "spanish paprika": {
+    "original": "spanish paprika",
+    "base_name": "paprika",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "spicy brown mustard": {
+    "original": "spicy brown mustard",
+    "base_name": "spicy brown mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "spicy mustard": {
+    "original": "spicy mustard",
+    "base_name": "spicy brown mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "spinach": {
+    "original": "spinach",
+    "base_name": "spinach",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "spinach or kale": {
+    "original": "spinach or kale",
+    "base_name": "spinach",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "split peas": {
+    "original": "split peas",
+    "base_name": "split pea",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "spring mix lettuce": {
+    "original": "spring mix lettuce",
+    "base_name": "spring mix",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "squash": {
+    "original": "squash",
+    "base_name": "squash",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "strawberries": {
+    "original": "strawberries",
+    "base_name": "strawberry",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "strawberry all-fruit spread": {
+    "original": "strawberry all-fruit spread",
+    "base_name": "strawberry jam",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sugar": {
+    "original": "sugar",
+    "base_name": "sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "summer squash": {
+    "original": "summer squash",
+    "base_name": "summer squash",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sun-dried tomato": {
+    "original": "sun-dried tomato",
+    "base_name": "sun-dried tomato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sun-dried tomatoes": {
+    "original": "sun-dried tomatoes",
+    "base_name": "sun-dried tomato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sun-dried tomatoes in oil": {
+    "original": "sun-dried tomatoes in oil",
+    "base_name": "sun-dried tomato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sundried tomato": {
+    "original": "sundried tomato",
+    "base_name": "sun-dried tomato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sunflower seeds": {
+    "original": "sunflower seeds",
+    "base_name": "sunflower seed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet bell pepper": {
+    "original": "sweet bell pepper",
+    "base_name": "bell pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet chile sauce": {
+    "original": "sweet chile sauce",
+    "base_name": "sweet chili sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet corn": {
+    "original": "sweet corn",
+    "base_name": "corn",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet onion": {
+    "original": "sweet onion",
+    "base_name": "sweet onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet pepper": {
+    "original": "sweet pepper",
+    "base_name": "bell pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet peppers": {
+    "original": "sweet peppers",
+    "base_name": "bell pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet potato": {
+    "original": "sweet potato",
+    "base_name": "sweet potato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sweet white rice wine": {
+    "original": "sweet white rice wine",
+    "base_name": "mirin",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "sweetened shredded coconut": {
+    "original": "sweetened shredded coconut",
+    "base_name": "shredded coconut",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "swiss cheese": {
+    "original": "swiss cheese",
+    "base_name": "swiss cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "taco seasoning": {
+    "original": "taco seasoning",
+    "base_name": "taco seasoning",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tahini": {
+    "original": "tahini",
+    "base_name": "tahini",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tahini paste": {
+    "original": "tahini paste",
+    "base_name": "tahini",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tahini sauce": {
+    "original": "tahini sauce",
+    "base_name": "tahini",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tajin seasoning": {
+    "original": "tajin seasoning",
+    "base_name": "tajin seasoning",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tart apple": {
+    "original": "tart apple",
+    "base_name": "apple",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tempeh bacon strips": {
+    "original": "tempeh bacon strips",
+    "base_name": "tempeh bacon",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tempeh bacon strips (or plant-based bacon)": {
+    "original": "tempeh bacon strips (or plant-based bacon)",
+    "base_name": "tempeh bacon",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "thyme": {
+    "original": "thyme",
+    "base_name": "thyme",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "thyme sprig": {
+    "original": "thyme sprig",
+    "base_name": "thyme",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "toasted almonds": {
+    "original": "toasted almonds",
+    "base_name": "almond",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "toasted pecans": {
+    "original": "toasted pecans",
+    "base_name": "pecan",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "toasted sesame oil": {
+    "original": "toasted sesame oil",
+    "base_name": "sesame oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tomato": {
+    "original": "tomato",
+    "base_name": "tomato",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "tomato and cucumber": {
+    "original": "tomato and cucumber",
+    "base_name": "tomato and cucumber",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "tomato",
+      "cucumber"
+    ]
+  },
+  "tomato juice": {
+    "original": "tomato juice",
+    "base_name": "tomato juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tomato paste": {
+    "original": "tomato paste",
+    "base_name": "tomato paste",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "tomato pesto": {
+    "original": "tomato pesto",
+    "base_name": "tomato pesto",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tomato relish": {
+    "original": "tomato relish",
+    "base_name": "tomato relish",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tomato sauce": {
+    "original": "tomato sauce",
+    "base_name": "tomato sauce",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "tortilla": {
+    "original": "tortilla",
+    "base_name": "tortilla",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tortilla chips": {
+    "original": "tortilla chips",
+    "base_name": "tortilla chips",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tortillas": {
+    "original": "tortillas",
+    "base_name": "tortilla",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tortillas and avocado": {
+    "original": "tortillas and avocado",
+    "base_name": "tortilla and avocado",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "tortilla",
+      "avocado"
+    ]
+  },
+  "turbinado sugar": {
+    "original": "turbinado sugar",
+    "base_name": "turbinado sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "turmeric": {
+    "original": "turmeric",
+    "base_name": "turmeric",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "tuscan kale": {
+    "original": "tuscan kale",
+    "base_name": "tuscan kale",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "unidentified ground spice": {
+    "original": "unidentified ground spice",
+    "base_name": "spice",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "unsalted butter": {
+    "original": "unsalted butter",
+    "base_name": "butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "unsalted cashews": {
+    "original": "unsalted cashews",
+    "base_name": "cashews",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "unsweetened almond milk": {
+    "original": "unsweetened almond milk",
+    "base_name": "almond milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "unsweetened shredded coconut": {
+    "original": "unsweetened shredded coconut",
+    "base_name": "shredded coconut",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "vanilla": {
+    "original": "vanilla",
+    "base_name": "vanilla extract",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vanilla extract": {
+    "original": "vanilla extract",
+    "base_name": "vanilla extract",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vanilla ice cream": {
+    "original": "vanilla ice cream",
+    "base_name": "vanilla ice cream",
+    "form": "frozen",
+    "is_compound": false,
+    "parts": []
+  },
+  "vegan feta": {
+    "original": "vegan feta",
+    "base_name": "vegan feta",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegan mayonnaise": {
+    "original": "vegan mayonnaise",
+    "base_name": "vegan mayonnaise",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegan worcestershire sauce": {
+    "original": "vegan worcestershire sauce",
+    "base_name": "vegan worcestershire sauce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegetable broth": {
+    "original": "vegetable broth",
+    "base_name": "vegetable broth",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegetable cooking oil spray": {
+    "original": "vegetable cooking oil spray",
+    "base_name": "cooking spray",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegetable cooking spray": {
+    "original": "vegetable cooking spray",
+    "base_name": "cooking spray",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegetable oil": {
+    "original": "vegetable oil",
+    "base_name": "vegetable oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vegetable stock": {
+    "original": "vegetable stock",
+    "base_name": "vegetable broth",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vine ripe tomato": {
+    "original": "vine ripe tomato",
+    "base_name": "tomato",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "vine tomato": {
+    "original": "vine tomato",
+    "base_name": "tomato",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "walnuts": {
+    "original": "walnuts",
+    "base_name": "walnuts",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "warm water": {
+    "original": "warm water",
+    "base_name": "water",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "wasabi peas": {
+    "original": "wasabi peas",
+    "base_name": "wasabi peas",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "water": {
+    "original": "water",
+    "base_name": "water",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "watercress": {
+    "original": "watercress",
+    "base_name": "watercress",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "watermelon": {
+    "original": "watermelon",
+    "base_name": "watermelon",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "wheat berries": {
+    "original": "wheat berries",
+    "base_name": "wheat berries",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "wheat thins": {
+    "original": "wheat thins",
+    "base_name": "wheat crackers",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white balsamic vinegar": {
+    "original": "white balsamic vinegar",
+    "base_name": "white balsamic vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white beans": {
+    "original": "white beans",
+    "base_name": "white beans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white button mushrooms": {
+    "original": "white button mushrooms",
+    "base_name": "white button mushroom",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "white cheddar": {
+    "original": "white cheddar",
+    "base_name": "white cheddar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white chocolate": {
+    "original": "white chocolate",
+    "base_name": "white chocolate",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white chocolate chips": {
+    "original": "white chocolate chips",
+    "base_name": "white chocolate chips",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white onion": {
+    "original": "white onion",
+    "base_name": "white onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white pepper": {
+    "original": "white pepper",
+    "base_name": "white pepper",
+    "form": "ground",
+    "is_compound": false,
+    "parts": []
+  },
+  "white quinoa": {
+    "original": "white quinoa",
+    "base_name": "quinoa",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white sugar": {
+    "original": "white sugar",
+    "base_name": "sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white vinegar": {
+    "original": "white vinegar",
+    "base_name": "white vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white whole-wheat flour": {
+    "original": "white whole-wheat flour",
+    "base_name": "white whole-wheat flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "white wine vinegar": {
+    "original": "white wine vinegar",
+    "base_name": "white wine vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole grain mustard": {
+    "original": "whole grain mustard",
+    "base_name": "whole grain mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole grain oats": {
+    "original": "whole grain oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole kernel corn": {
+    "original": "whole kernel corn",
+    "base_name": "corn",
+    "form": "canned",
+    "is_compound": false,
+    "parts": []
+  },
+  "whole milk": {
+    "original": "whole milk",
+    "base_name": "whole milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole milk or heavy cream": {
+    "original": "whole milk or heavy cream",
+    "base_name": "whole milk and heavy cream",
+    "form": null,
+    "is_compound": true,
+    "parts": [
+      "whole milk",
+      "heavy cream"
+    ]
+  },
+  "whole milk ricotta cheese": {
+    "original": "whole milk ricotta cheese",
+    "base_name": "ricotta cheese",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole rolled oats": {
+    "original": "whole rolled oats",
+    "base_name": "rolled oats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole wheat pastry flour": {
+    "original": "whole wheat pastry flour",
+    "base_name": "whole wheat pastry flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole wheat pita": {
+    "original": "whole wheat pita",
+    "base_name": "whole wheat pita",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole-wheat bread crumbs": {
+    "original": "whole-wheat bread crumbs",
+    "base_name": "bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole-wheat or spelt phyllo": {
+    "original": "whole-wheat or spelt phyllo",
+    "base_name": "phyllo dough",
+    "form": "frozen",
+    "is_compound": false,
+    "parts": []
+  },
+  "whole-wheat panko bread crumbs": {
+    "original": "whole-wheat panko bread crumbs",
+    "base_name": "panko bread crumbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "whole-wheat pastry flour": {
+    "original": "whole-wheat pastry flour",
+    "base_name": "whole-wheat pastry flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "wild rice": {
+    "original": "wild rice",
+    "base_name": "wild rice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow and red bell pepper": {
+    "original": "yellow and red bell pepper",
+    "base_name": "yellow bell pepper",
+    "form": "fresh",
+    "is_compound": true,
+    "parts": [
+      "yellow bell pepper",
+      "red bell pepper"
+    ]
+  },
+  "yellow bell pepper": {
+    "original": "yellow bell pepper",
+    "base_name": "yellow bell pepper",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow cake mix": {
+    "original": "yellow cake mix",
+    "base_name": "yellow cake mix",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow crookneck squash": {
+    "original": "yellow crookneck squash",
+    "base_name": "yellow squash",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow mustard": {
+    "original": "yellow mustard",
+    "base_name": "yellow mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow onion": {
+    "original": "yellow onion",
+    "base_name": "yellow onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow potato": {
+    "original": "yellow potato",
+    "base_name": "yellow potato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow rice": {
+    "original": "yellow rice",
+    "base_name": "yellow rice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow summer squash": {
+    "original": "yellow summer squash",
+    "base_name": "yellow squash",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "yellow zucchini": {
+    "original": "yellow zucchini",
+    "base_name": "yellow zucchini",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "yukon gold potato": {
+    "original": "yukon gold potato",
+    "base_name": "yukon gold potato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "yukon gold potatoes": {
+    "original": "yukon gold potatoes",
+    "base_name": "yukon gold potato",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "zucchini": {
+    "original": "zucchini",
+    "base_name": "zucchini",
+    "form": "fresh",
+    "is_compound": false,
+    "parts": []
+  },
+  "acai powder": {
+    "original": "acai powder",
+    "base_name": "acai powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "apple juice": {
+    "original": "apple juice",
+    "base_name": "apple juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "buckwheat groats": {
+    "original": "buckwheat groats",
+    "base_name": "buckwheat groats",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cacao nibs": {
+    "original": "cacao nibs",
+    "base_name": "cacao nibs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cashew butter": {
+    "original": "cashew butter",
+    "base_name": "cashew butter",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut meat": {
+    "original": "coconut meat",
+    "base_name": "coconut meat",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut water": {
+    "original": "coconut water",
+    "base_name": "coconut water",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut yogurt": {
+    "original": "coconut yogurt",
+    "base_name": "coconut yogurt",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dried coconut flakes": {
+    "original": "dried coconut flakes",
+    "base_name": "coconut flakes",
+    "form": "dried",
+    "is_compound": false,
+    "parts": []
+  },
+  "goji berries": {
+    "original": "goji berries",
+    "base_name": "goji berries",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "goldenberries": {
+    "original": "goldenberries",
+    "base_name": "goldenberries",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "granny smith apple": {
+    "original": "granny smith apple",
+    "base_name": "granny smith apple",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ground almonds": {
+    "original": "ground almonds",
+    "base_name": "ground almonds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "milled flaxseed": {
+    "original": "milled flaxseed",
+    "base_name": "milled flaxseed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "passion fruit": {
+    "original": "passion fruit",
+    "base_name": "passion fruit",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pears": {
+    "original": "pears",
+    "base_name": "pears",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pomegranate seeds": {
+    "original": "pomegranate seeds",
+    "base_name": "pomegranate seeds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "probiotic powder capsule": {
+    "original": "probiotic powder capsule",
+    "base_name": "probiotic powder capsule",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raspberries": {
+    "original": "raspberries",
+    "base_name": "raspberries",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "raw sugar": {
+    "original": "raw sugar",
+    "base_name": "raw sugar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "vanilla bean seeds": {
+    "original": "vanilla bean seeds",
+    "base_name": "vanilla bean seeds",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "almond milk": {
+    "original": "almond milk",
+    "base_name": "almond milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "scallions": {
+    "original": "scallions",
+    "base_name": "green onion",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "coconut flour": {
+    "original": "coconut flour",
+    "base_name": "coconut flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "creamed coconut": {
+    "original": "creamed coconut",
+    "base_name": "creamed coconut",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "stone-ground mustard": {
+    "original": "stone-ground mustard",
+    "base_name": "stone-ground mustard",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "wheatgrass powder": {
+    "original": "wheatgrass powder",
+    "base_name": "wheatgrass powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "hemp milk": {
+    "original": "hemp milk",
+    "base_name": "hemp milk",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kiwi": {
+    "original": "kiwi",
+    "base_name": "kiwi",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "matcha powder": {
+    "original": "matcha powder",
+    "base_name": "matcha powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "maca powder": {
+    "original": "maca powder",
+    "base_name": "maca powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "flaxseed": {
+    "original": "flaxseed",
+    "base_name": "flaxseed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "plums": {
+    "original": "plums",
+    "base_name": "plums",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red grapes": {
+    "original": "red grapes",
+    "base_name": "red grapes",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mixed fresh herbs": {
+    "original": "mixed fresh herbs",
+    "base_name": "herbs",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "rice spring roll wrappers": {
+    "original": "rice spring roll wrappers",
+    "base_name": "rice spring roll wrappers",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "bok choy": {
+    "original": "bok choy",
+    "base_name": "bok choy",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mixed vegetable sticks": {
+    "original": "mixed vegetable sticks",
+    "base_name": "mixed vegetable sticks",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "wasabi paste": {
+    "original": "wasabi paste",
+    "base_name": "wasabi paste",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "tomatoes": {
+    "original": "tomatoes",
+    "base_name": "tomatoes",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "radishes": {
+    "original": "radishes",
+    "base_name": "radishes",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "eggplant": {
+    "original": "eggplant",
+    "base_name": "eggplant",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "red chile": {
+    "original": "red chile",
+    "base_name": "red chile",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "butter lettuce": {
+    "original": "butter lettuce",
+    "base_name": "butter lettuce",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "miso paste": {
+    "original": "miso paste",
+    "base_name": "miso paste",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "baby corn": {
+    "original": "baby corn",
+    "base_name": "baby corn",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pea shoots": {
+    "original": "pea shoots",
+    "base_name": "pea shoots",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dried seaweed": {
+    "original": "dried seaweed",
+    "base_name": "dried seaweed",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mirin": {
+    "original": "mirin",
+    "base_name": "mirin",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "buckwheat flour": {
+    "original": "buckwheat flour",
+    "base_name": "buckwheat flour",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "psyllium husk powder": {
+    "original": "psyllium husk powder",
+    "base_name": "psyllium husk powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "green olives": {
+    "original": "green olives",
+    "base_name": "green olives",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "horseradish": {
+    "original": "horseradish",
+    "base_name": "horseradish",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "macadamia nuts": {
+    "original": "macadamia nuts",
+    "base_name": "macadamia nuts",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "garlic paste": {
+    "original": "garlic paste",
+    "base_name": "garlic paste",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "dried green peas": {
+    "original": "dried green peas",
+    "base_name": "dried green peas",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "wine vinegar": {
+    "original": "wine vinegar",
+    "base_name": "wine vinegar",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "turnip": {
+    "original": "turnip",
+    "base_name": "turnip",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "papaya": {
+    "original": "papaya",
+    "base_name": "papaya",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "adzuki beans": {
+    "original": "adzuki beans",
+    "base_name": "adzuki beans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "mung beans": {
+    "original": "mung beans",
+    "base_name": "mung beans",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "shiitake mushrooms": {
+    "original": "shiitake mushrooms",
+    "base_name": "shiitake mushrooms",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "kelp noodles": {
+    "original": "kelp noodles",
+    "base_name": "kelp noodles",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "enoki mushrooms": {
+    "original": "enoki mushrooms",
+    "base_name": "enoki mushrooms",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "bean sprouts": {
+    "original": "bean sprouts",
+    "base_name": "bean sprouts",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "flaxseed oil": {
+    "original": "flaxseed oil",
+    "base_name": "flaxseed oil",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "savoy cabbage": {
+    "original": "savoy cabbage",
+    "base_name": "savoy cabbage",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "peaches": {
+    "original": "peaches",
+    "base_name": "peaches",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "honeydew melon": {
+    "original": "honeydew melon",
+    "base_name": "honeydew melon",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "ginger syrup": {
+    "original": "ginger syrup",
+    "base_name": "ginger syrup",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "preserved ginger": {
+    "original": "preserved ginger",
+    "base_name": "preserved ginger",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "cacao powder": {
+    "original": "cacao powder",
+    "base_name": "cacao powder",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "brazil nuts": {
+    "original": "brazil nuts",
+    "base_name": "brazil nuts",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pineapple": {
+    "original": "pineapple",
+    "base_name": "pineapple",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "pineapple juice": {
+    "original": "pineapple juice",
+    "base_name": "pineapple juice",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  },
+  "figs": {
+    "original": "figs",
+    "base_name": "fig",
+    "form": null,
+    "is_compound": false,
+    "parts": []
+  }
+}
