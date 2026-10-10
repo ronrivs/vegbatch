@@ -814,6 +814,20 @@ const overlap = new Set(chosenIdx.flatMap((r) => r.ing));
 const total = chosenIdx.reduce((s, r) => s + r.ing.length, 0);
 t("chosen recipes actually share ingredients", overlap.size < total,
   `${total} ingredient slots -> ${overlap.size} distinct`);
+t("plan page offers another recipe",
+  [...document.querySelectorAll("#planRecipes a")].some((a) => /Add another recipe/.test(a.textContent)));
+
+// The recipe count survives the trip back — it used to reset to 1.
+await nav("/");
+await new Promise((r) => setTimeout(r, 150));
+t("planner remembers the recipe count", document.querySelector("#pRecipes").value === "4");
+document.querySelector("#togglePlanner").click();
+document.querySelector("#pRecipes").value = "7";
+document.querySelector("#pRecipes").dispatchEvent(new window.Event("change"));
+document.querySelector("#buildWeek").click();
+await new Promise((r) => setTimeout(r, 350));
+planned = JSON.parse(window.localStorage.getItem("vb-plan") ?? "[]");
+t("a week can hold seven recipes", planned.length === 7, String(planned.length));
 
 t("still no errors", errors.length === 0, errors.join(" | "));
 

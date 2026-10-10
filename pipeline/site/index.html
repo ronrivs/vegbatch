@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--HEAD-->
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="VegBatch home">
+    <img src="/logo.png" alt="VegBatch" width="180" height="54">
+  </a>
+  <button class="theme-toggle" id="themeToggle" type="button"
+          aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle class="sun-core" cx="12" cy="12" r="4.6"/>
+      <g class="sun-rays" stroke-linecap="round">
+        <path d="M12 1.8v2.6M12 19.6v2.6M4.4 12H1.8M22.2 12h-2.6"/>
+        <path d="M6.3 6.3 4.5 4.5M19.5 19.5l-1.8-1.8M17.7 6.3l1.8-1.8M4.5 19.5l1.8-1.8"/>
+      </g>
+      <path class="moon" d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8z"/>
+    </svg>
+  </button>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="nav">
+    <a href="/" data-nav="browse">Browse</a>
+    <a href="/staples" data-nav="staples">Staples</a>
+    <a href="/plan" data-nav="plan">This week <span class="pill" id="planCount" hidden>0</span></a>
+    <a href="/history" data-nav="history">History</a>
+    <a href="/account" data-nav="account" id="navAccount">Sign in</a>
+  </nav>
+</header>
+
+<main id="view"><!--APP--></main>
+
+<footer class="foot">
+  <div class="foot-brand">
+    <img class="foot-logo" src="/logo.png" alt="VegBatch" width="150" height="45">
+    <span class="foot-slogan">Cook once. Eat all week.</span>
+  </div>
+  <p class="foot-meta">
+    <a href="/feedback">Suggestions or a bug?</a>
+    &nbsp;·&nbsp;
+    Public Goods brought to you by <a href="https://trib.xyz" rel="noopener">Tributary</a>.
+  </p>
+</footer>
+
+<template id="tpl-browse">
+  <section class="browse">
+    <div class="search-row">
+      <input type="search" id="q" placeholder="Search recipes and ingredients…" autocomplete="off">
+      <button id="togglePlanner" class="ghost">Plan my week</button>
+    </div>
+
+    <div class="planner" id="planner" hidden>
+      <p class="planner-lead">Cook once, eat all week.</p>
+      <div class="planner-row">
+        <label>Cook
+          <select id="pRecipes">
+            <option value="1" selected>1 recipe</option>
+            <option value="2">2 recipes</option>
+            <option value="3">3 recipes</option>
+            <option value="4">4 recipes</option>
+            <option value="5">5 recipes</option>
+            <option value="6">6 recipes</option>
+            <option value="7">7 recipes</option>
+          </select>
+        </label>
+        <label>for
+          <select id="pDays">
+            <option value="3">3 days</option><option value="4">4 days</option>
+            <option value="5" selected>5 days</option><option value="6">6 days</option>
+            <option value="7">7 days</option>
+          </select>
+        </label>
+        <label>feeding
+          <select id="pPeople">
+            <option value="1">1 person</option><option value="2" selected>2 people</option>
+            <option value="3">3 people</option><option value="4">4 people</option>
+          </select>
+        </label>
+        <button id="buildWeek" class="primary">Build it</button>
+      </div>
+      <p class="planner-note" id="plannerNote"></p>
+    </div>
+
+    <div class="filters" id="filters">
+      <label class="chk"><input type="checkbox" id="fVegan"> Vegan only</label>
+      <select id="fCourse"><option value="">Any course</option></select>
+      <select id="fTime">
+        <option value="">Any time</option>
+        <option value="20">20 min or less</option>
+        <option value="30">30 min or less</option>
+        <option value="45">45 min or less</option>
+      </select>
+      <select id="fIng"><option value="">Any ingredient</option></select>
+      <button id="clearFilters" class="ghost" hidden>Clear</button>
+    </div>
+
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+</template>
+
+<template id="tpl-staples">
+  <section class="staples">
+    <h1>Weekly staples</h1>
+    <p class="lead">
+      The things you buy every week whatever you're cooking — bananas, two peanut butters,
+      the yoghurt. They have nothing to do with any recipe, and they go on the list only
+      when you ask for them, with <b>Add weekly staples</b> on the
+      <a href="/plan">week page</a> — with recipes planned, or on their own.
+    </p>
+    <p class="staple-where" id="stapleWhere"></p>
+    <form class="staple-add" id="stapleAdd">
+      <input id="sItem" placeholder="Bananas" aria-label="Item" required>
+      <input id="sQty" type="number" min="0" step="0.5" value="1" aria-label="Quantity">
+      <input id="sUnit" placeholder="unit (optional)" aria-label="Unit">
+      <select id="sAisle" aria-label="Aisle"></select>
+      <button class="primary" type="submit">Add</button>
+    </form>
+    <div id="stapleList"></div>
+  </section>
+</template>
+
+<template id="tpl-account">
+  <section class="account">
+    <div data-when="out">
+      <h1>Your kitchen, on every device</h1>
+      <p class="lead">
+        Everything on VegBatch is free and works without an account — every recipe,
+        the planner, the grocery list. An account adds the things a single browser
+        can't do.
+      </p>
+      <ul class="perks">
+        <li><b>Your list in the shop.</b> Plan on the laptop, tick items off on your phone.</li>
+        <li><b>One list for the household.</b> You and whoever you cook with share the same staples.</li>
+        <li><b>Cook history.</b> See when you last made something, so the week doesn't repeat itself.</li>
+        <li><b>Your own photos.</b> Add a picture of how yours turned out. Private unless you say otherwise.</li>
+      </ul>
+      <button id="signIn" class="primary">Continue with Google</button>
+      <p class="fineprint">
+        We store your email so you can sign back in. We won't send you anything
+        unless you ask us to, and you can delete your account and everything in it
+        at any time.
+      </p>
+    </div>
+
+    <div data-when="in" hidden>
+      <h1>Your account</h1>
+      <p class="lead" id="acctWho"></p>
+      <div class="acct-stats" id="acctStats"></div>
+      <label class="chk optin"><input type="checkbox" id="optMarketing">
+        Email me occasionally about new features. Off by default; we mean it.</label>
+      <div class="acct-actions">
+        <button id="signOut" class="ghost">Sign out</button>
+        <button id="deleteAll" class="ghost danger">Delete my data</button>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="tpl-plan">
+  <section class="plan">
+    <h1>This week</h1>
+    <div id="planRecipes"></div>
+    <div class="list-opts" id="listOpts" hidden>
+      <label class="chk"><input type="checkbox" id="optStaples"> Add weekly staples</label>
+      <label class="chk"><input type="checkbox" id="optPantry"> Include pantry items</label>
+      <label class="chk"><input type="checkbox" id="optWhy"> Show which recipe each came from</label>
+      <button id="printBtn" class="ghost">Print</button>
+      <button id="saveList" class="ghost">Save this list</button>
+      <button id="clearPlan" class="ghost danger">Clear week</button>
+    </div>
+    <div id="groceries"></div>
+  </section>
+</template>
+
+<template id="tpl-feedback">
+  <section class="feedback">
+    <h1>Tell us what's wrong</h1>
+    <p class="lead">
+      Found a bug, spotted a mistake in a recipe, or want something the site
+      doesn't do? This goes straight to Ron. No account needed.
+    </p>
+    <form id="fbForm" novalidate>
+      <label class="fb-row">Your name
+        <input id="fbName" required maxlength="80" autocomplete="name">
+      </label>
+      <label class="fb-row">Your email
+        <input id="fbEmail" type="email" required maxlength="160" autocomplete="email">
+        <span class="fineprint">Only so we can reply. Nothing else is ever sent here.</span>
+      </label>
+      <label class="fb-row">What kind of thing is it?
+        <select id="fbKind">
+          <option value="bug">Something's broken</option>
+          <option value="recipe">A recipe is wrong</option>
+          <option value="suggestion">A suggestion</option>
+          <option value="other">Something else</option>
+        </select>
+      </label>
+      <label class="fb-row">Tell us about it
+        <textarea id="fbMessage" rows="7" required maxlength="4000"
+                  placeholder="What happened, and what did you expect instead?"></textarea>
+      </label>
+      <!-- Bots fill every field they find; people never see this one. -->
+      <div class="fb-trap" aria-hidden="true">
+        <label>Leave this empty<input id="fbTrap" tabindex="-1" autocomplete="off"></label>
+      </div>
+      <div class="fb-actions">
+        <button class="primary" type="submit" id="fbSend">Send</button>
+        <span class="fineprint" id="fbStatus"></span>
+      </div>
+    </form>
+  </section>
+</template>
+
+<template id="tpl-history">
+  <section class="history">
+    <h1>Shopping history</h1>
+    <p class="lead">
+      Every list you've saved, newest first — what you bought, and what you
+      ticked off while you were in the shop.
+    </p>
+    <p class="staple-where" id="historyWhere"></p>
+    <div id="historyList"></div>
+  </section>
+</template>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>

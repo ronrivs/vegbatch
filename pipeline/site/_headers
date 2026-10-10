@@ -1,0 +1,49 @@
+# Cloudflare Pages headers.
+# Nothing here is content-hashed, so anything the build rewrites must
+# revalidate. Card photos never change once written, so they cache hard.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/index.html
+  Cache-Control: no-cache
+
+/app.js
+  Cache-Control: no-cache
+
+# A cached service worker can never replace itself.
+/sw.js
+  Cache-Control: no-cache
+
+/styles.css
+  Cache-Control: no-cache
+
+/lib/*
+  Cache-Control: no-cache
+
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+/cards/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Logo, icons and the social card. These had NO rule at all, which is why
+# saying "let the zone respect existing headers" would not have helped them —
+# there was nothing to respect. They change only when the logo does, but they
+# are not content-hashed, so a year would strand an old logo in every cache.
+# A week is long enough to stop the re-fetching and short enough to recover.
+/og.png
+  Cache-Control: public, max-age=604800
+/logo.png
+  Cache-Control: public, max-age=604800
+/icon-32.png
+  Cache-Control: public, max-age=604800
+/icon-192.png
+  Cache-Control: public, max-age=604800
+/icon-512.png
+  Cache-Control: public, max-age=604800
+/apple-touch-icon.png
+  Cache-Control: public, max-age=604800
+/site.webmanifest
+  Cache-Control: public, max-age=604800

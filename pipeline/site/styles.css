@@ -1,0 +1,487 @@
+/* Light is the standard — the brand's cream and green — and the OS preference
+   is deliberately NOT consulted. A recipe is a document, and dense reference
+   text like an ingredient list reads best dark-on-light. Dark is a choice the
+   reader makes with the toggle, and it is remembered.
+
+   Every colour is a token defined here first; the dark block below only
+   redefines tokens. Nothing may define a colour solely inside [data-theme],
+   or it simply won't exist in the default state. */
+:root {
+  color-scheme: light;
+  --bg: #faf8f5;
+  --panel: #fff;
+  --ink: #22201d;
+  --muted: #6d6660;
+  --line: #e5dfd7;
+  --accent: #186048;
+  --accent-soft: #e8f1eb;
+  --warn: #9a6512;
+  --warn-soft: #fdf3e2;
+  --radius: 10px;
+  --wrap: 1120px;
+}
+
+/* The ground is a warm near-black, not #000: pure black under pure white
+   causes halation — the text blooms and smears, worse with astigmatism. The
+   neutral keeps more red than blue so it sits with cream and carrot rather
+   than drifting cold. The accent lightens because contrast is relative to the
+   ground: #186048 is correct on cream and nearly invisible on near-black. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #171614; --panel: #201e1b; --ink: #ece7e0; --muted: #a49c93;
+  --line: #332f2b; --accent: #6fb58d; --accent-soft: #24302a;
+  --warn: #d9a441; --warn-soft: #2a2317;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { line-height: 1.22; letter-spacing: -0.015em; margin: 0 0 .4em; }
+h1 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); font-weight: 640; }
+h2 { font-size: 1.02rem; font-weight: 620; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+
+button, select, input {
+  font: inherit; color: inherit;
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 8px; padding: .5rem .7rem;
+}
+button { cursor: pointer; transition: border-color .15s, background .15s; }
+button:hover { border-color: var(--muted); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 560; }
+button.primary:hover { filter: brightness(1.1); }
+button.ghost { background: transparent; }
+button.danger:hover { border-color: #b4483a; color: #b4483a; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- chrome ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; gap: 1.5rem;
+  padding: .7rem max(1rem, (100vw - var(--wrap)) / 2);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; text-decoration: none; }
+.brand img { height: 34px; width: auto; }
+/* the wordmark is dark green on transparent — lift it on a dark ground */
+/* the wordmark is dark green on transparent and vanishes on a dark ground */
+:root[data-theme="dark"] .brand img { filter: brightness(1.7) saturate(.85); }
+
+/* ---------- theme toggle ----------
+   One button, two icons, and only one is ever drawn: the icon shows the state
+   you'd move TO, which is the convention people already read correctly. It
+   sits outside the hamburger on purpose — changing the lights is a property
+   of the page, not a place you can navigate to. */
+.theme-toggle {
+  display: grid; place-items: center;
+  width: 38px; height: 38px; padding: 0;
+  background: transparent; border: 1px solid var(--line); border-radius: 8px;
+  color: var(--muted);
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--muted); }
+.theme-toggle svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+.theme-toggle .sun-core { fill: none; }
+/* light is showing -> offer the moon; dark is showing -> offer the sun */
+.theme-toggle .moon { display: block; }
+.theme-toggle .sun-core, .theme-toggle .sun-rays { display: none; }
+:root[data-theme="dark"] .theme-toggle .moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .sun-core,
+:root[data-theme="dark"] .theme-toggle .sun-rays { display: block; }
+
+/* The DOM order is brand, toggle, burger, nav — chosen so the toggle and the
+   menu button are reachable early by keyboard and screen reader. Visual order
+   is set with flex `order` instead, so the markup stays sensible: on desktop
+   the nav takes the free space and the toggle sits after it; on mobile the
+   toggle takes the free space and the nav drops to its own row. */
+.topbar nav { order: 1; margin-left: auto; }
+.theme-toggle { order: 2; }
+.burger { order: 3; }
+
+/* ---------- hero (homepage, also what a crawler reads first) ---------- */
+.hero { max-width: 64ch; margin: .5rem 0 2rem; }
+.hero h1 {
+  font-size: clamp(1.9rem, 5vw, 3rem); font-weight: 700;
+  letter-spacing: -0.03em; margin: 0 0 .5rem; text-wrap: balance;
+}
+.hero p { font-size: 1.08rem; color: var(--muted); margin: 0; }
+.hero p b { color: var(--ink); font-weight: 620; }
+.topbar nav { margin-left: auto; display: flex; gap: 1.1rem; }
+.topbar nav a {
+  text-decoration: none; color: var(--muted); font-size: .94rem;
+  padding: .2rem 0; border-bottom: 2px solid transparent; white-space: nowrap;
+}
+.topbar nav a:hover { color: var(--ink); }
+.topbar nav a.on { color: var(--ink); border-bottom-color: var(--accent); }
+
+/* ---------- mobile nav ----------
+   Four links plus a brand will not fit a phone, and wrapping them produced
+   a ragged two-line bar. Below 700px they collapse behind a button. */
+.burger { display: none; }
+
+@media (max-width: 700px) {
+  .topbar { gap: .75rem; }
+  .brand img { height: 28px; }
+
+  /* the toggle now takes the free space, so the burger sits beside it */
+  .theme-toggle { order: 1; margin-left: auto; }
+  .burger {
+    display: flex; flex-direction: column; justify-content: center; gap: 5px;
+    margin-left: 0; order: 2;
+    width: 42px; height: 38px; padding: 0 9px;
+    background: transparent; border: 1px solid var(--line); border-radius: 8px;
+  }
+  .burger span {
+    display: block; height: 2px; width: 100%; border-radius: 2px;
+    background: var(--ink); transition: transform .18s, opacity .18s;
+  }
+  /* the three bars become an X when open, so the control explains itself */
+  .burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .burger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+  .burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  .topbar nav {
+    order: 3; width: 100%; margin-left: 0;
+    flex-direction: column; gap: 0;
+    display: none;
+    border-top: 1px solid var(--line);
+    margin-top: .7rem; padding-top: .4rem;
+  }
+  .topbar nav.open { display: flex; }
+  .topbar nav a {
+    padding: .8rem .2rem; border-bottom: 1px solid var(--line);
+    font-size: 1rem; display: flex; align-items: center; gap: .4rem;
+  }
+  .topbar nav a:last-child { border-bottom: none; }
+  /* the desktop underline-on-active reads as a divider here */
+  .topbar nav a.on { border-bottom-color: var(--line); color: var(--accent); font-weight: 620; }
+  .topbar { flex-wrap: wrap; }
+}
+.pill {
+  background: var(--accent); color: #fff; border-radius: 99px;
+  padding: 0 .42rem; font-size: .76rem; font-weight: 640; margin-left: .2rem;
+}
+main { padding: 1.6rem max(1rem, (100vw - var(--wrap)) / 2) 4rem; min-height: 70vh; }
+.foot {
+  border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem;
+  padding: 1.6rem max(1rem, (100vw - var(--wrap)) / 2) 2.2rem;
+  display: flex; flex-wrap: wrap; gap: .5rem 2rem; align-items: baseline;
+}
+.foot p { margin: 0; }
+.foot-brand { display: flex; flex-wrap: wrap; align-items: center; gap: .2rem 1rem; }
+.foot-logo { height: 30px; width: auto; }
+/* same lift the header logo gets — the wordmark is dark green on transparent */
+:root[data-theme="dark"] .foot-logo { filter: brightness(1.7) saturate(.85); }
+.foot-slogan { font-style: italic; }
+.foot-meta { margin-left: auto; }
+.foot-meta a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+.foot-meta a:hover { border-bottom-color: currentColor; }
+@media (max-width: 620px) { .foot-meta { margin-left: 0; } }
+
+/* ---------- browse ---------- */
+.search-row { display: flex; gap: .6rem; margin-bottom: .8rem; }
+#q { flex: 1; font-size: 1.02rem; padding: .7rem .9rem; }
+.filters { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; margin-bottom: 1rem; }
+.chk { display: inline-flex; align-items: center; gap: .4rem; font-size: .92rem; color: var(--muted); }
+.chk input { width: auto; padding: 0; }
+.count { color: var(--muted); font-size: .88rem; margin: 0 0 1rem; }
+
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); }
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; text-decoration: none; display: flex; flex-direction: column;
+  transition: transform .14s, box-shadow .14s, border-color .14s;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.09); border-color: var(--muted); }
+/* Generated tile — no photographs. Hue comes from the course, the angle and
+   second stop from the recipe id, so the grid groups by eye without any two
+   tiles matching. The text is the ingredients that identify the dish. */
+.tile {
+  aspect-ratio: 5 / 3; border-bottom: 1px solid var(--line);
+  position: relative; display: flex; align-items: flex-end;
+  padding: .8rem .85rem;
+  background:
+    linear-gradient(var(--a),
+      hsl(var(--h) 42% 88%) 0%,
+      hsl(calc(var(--h) + 18) 34% 80%) 100%);
+}
+:root[data-theme="dark"] .tile {
+  background:
+    linear-gradient(var(--a),
+      hsl(var(--h) 26% 22%) 0%,
+      hsl(calc(var(--h) + 18) 22% 15%) 100%);
+}
+/* Your own photo, when you have one. The generated tile stays underneath as
+   the fallback for everyone else and for anything crawling the page. */
+.tile.has-photo img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover;
+}
+/* the category emoji has to survive landing on a bright photo */
+.tile.has-photo .tile-glyph {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .55);
+  opacity: 1;
+}
+
+.tile-glyph {
+  position: absolute; top: .5rem; right: .65rem;
+  font-size: 1.9rem; opacity: .82; line-height: 1;
+  z-index: 1;
+}
+.tile-ing {
+  font-size: .82rem; font-weight: 600; line-height: 1.35;
+  color: hsl(var(--h) 45% 22%);
+  text-transform: lowercase; letter-spacing: .005em;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+:root[data-theme="dark"] .tile-ing { color: hsl(var(--h) 38% 86%); }
+.card .body { padding: .75rem .85rem .9rem; display: flex; flex-direction: column; gap: .3rem; flex: 1; }
+.card h3 { font-size: 1rem; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+.card p { margin: 0; font-size: .86rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .tags { margin-top: auto; padding-top: .45rem; display: flex; gap: .35rem; flex-wrap: wrap; }
+.tag { font-size: .72rem; padding: .1rem .45rem; border-radius: 99px; background: var(--accent-soft); color: var(--accent); border: 1px solid var(--line); }
+.tag.plain { background: transparent; color: var(--muted); }
+.card.chosen { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+
+/* ---------- planner ---------- */
+.planner {
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: .9rem 1rem; margin-bottom: 1rem;
+}
+.planner-lead { margin: 0 0 .6rem; font-weight: 600; }
+.planner-row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.planner-row label { display: inline-flex; align-items: center; gap: .35rem; font-size: .9rem; color: var(--muted); }
+.planner-row select { padding: .35rem .5rem; }
+.planner-note { margin: .7rem 0 0; font-size: .88rem; color: var(--muted); }
+.week-sum { margin: 0 0 .9rem; font-size: .95rem; color: var(--muted); }
+.week-sum b { color: var(--ink); }
+
+/* Where the recipe came from — quiet, but present on the page rather than
+   buried in the data, which is the only way a credit means anything. */
+.recipe .source {
+  margin-top: 1.6rem; padding-top: .9rem; border-top: 1px solid var(--line);
+  font-size: .82rem; color: var(--muted); max-width: 62ch;
+}
+
+/* ---------- feedback ---------- */
+.feedback .lead { max-width: 60ch; color: var(--muted); margin-bottom: 1.6rem; }
+#fbForm { max-width: 52ch; display: flex; flex-direction: column; gap: 1.1rem; }
+.fb-row { display: flex; flex-direction: column; gap: .35rem; font-size: .93rem; color: var(--muted); }
+.fb-row input, .fb-row select, .fb-row textarea { width: 100%; font-size: 1rem; color: var(--ink); }
+.fb-row textarea { resize: vertical; min-height: 7rem; line-height: 1.5; }
+.fb-row .fineprint { margin-top: 0; }
+.fb-actions { display: flex; align-items: center; gap: .9rem; flex-wrap: wrap; }
+/* Off-screen rather than display:none — some bots skip hidden fields but
+   fill anything they can reach in the DOM. */
+.fb-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.fb-done { max-width: 52ch; font-size: 1rem; }
+
+/* ---------- shopping history ---------- */
+/* Read-first: each shop is a closed summary you open to read, so a year of
+   them stays scannable. The card is the unit, hence one border, not four. */
+.history .lead { max-width: 62ch; color: var(--muted); margin-bottom: 1.4rem; }
+.hist-card {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); padding: .8rem 1rem; margin-bottom: .7rem;
+}
+.hist-card > summary { cursor: pointer; list-style: none; }
+.hist-card > summary::-webkit-details-marker { display: none; }
+.hist-card > summary::before {
+  content: "▸"; color: var(--muted); margin-right: .55rem;
+  display: inline-block; transition: transform .15s;
+}
+.hist-card[open] > summary::before { transform: rotate(90deg); }
+.hist-head { display: inline-flex; gap: .8rem; align-items: baseline; flex-wrap: wrap; }
+.hist-recipes { color: var(--muted); font-size: .88rem; margin: .6rem 0 .2rem 1.3rem; }
+.hist-items { list-style: none; padding: 0; margin: .6rem 0 .9rem 1.3rem; }
+.hist-items li { padding: .18rem 0; font-size: .93rem; }
+.hist-items li.got { color: var(--muted); text-decoration: line-through; }
+.hist-items .qty { font-weight: 640; font-variant-numeric: tabular-nums; }
+.hist-actions { display: flex; gap: .6rem; flex-wrap: wrap; margin-left: 1.3rem; }
+
+/* ---------- staples ---------- */
+.staples .lead { max-width: 62ch; color: var(--muted); margin-bottom: 1.4rem; }
+.staples .lead b { color: var(--ink); }
+/* Where the list is kept. A quiet note, not a warning banner — but it earns a
+   left rule so it reads as a fact about the page rather than more body copy. */
+.staple-where:not(:empty) {
+  max-width: 62ch; margin: -.6rem 0 1.4rem; padding: .5rem 0 .5rem .8rem;
+  border-left: 3px solid var(--line);
+  font-size: .86rem; color: var(--muted);
+}
+.staple-where a { color: var(--accent); font-weight: 600; }
+
+.staple-add { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.6rem; }
+.staple-add #sItem { flex: 1 1 14rem; }
+.staple-add #sQty { width: 5rem; }
+.staple-add #sUnit { width: 9rem; }
+.staple-rows { list-style: none; padding: 0; margin: 0; }
+.staple-rows li {
+  display: flex; align-items: center; gap: .6rem;
+  padding: .4rem 0; border-bottom: 1px dashed var(--line); font-size: .95rem;
+}
+.staple-rows li:last-child { border-bottom: none; }
+.staple-rows li.off { opacity: .45; }
+.staple-rows input[type="checkbox"] { accent-color: var(--accent); width: auto; }
+.staple-rows .sq { width: 4.2rem; padding: .25rem .4rem; text-align: right; font-variant-numeric: tabular-nums; }
+.staple-rows .su { color: var(--muted); font-size: .86rem; min-width: 4.5rem; }
+.staple-rows .sn { flex: 1; font-weight: 550; }
+.staple-rows button { margin-left: auto; font-size: .82rem; padding: .25rem .55rem; }
+
+/* ---------- recipe ---------- */
+.back { display: inline-block; color: var(--muted); text-decoration: none; font-size: .9rem; margin-bottom: 1rem; }
+.back:hover { color: var(--ink); }
+.recipe-head { max-width: 62ch; }
+.recipe-head .desc { font-size: 1.06rem; color: var(--ink); margin: .4rem 0 .6rem; }
+.recipe-head .meta { color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
+.actions { display: flex; gap: .7rem; align-items: center; flex-wrap: wrap; margin-bottom: 2rem; }
+.scale { font-size: .9rem; color: var(--muted); display: inline-flex; align-items: center; gap: .4rem; }
+.scale select { padding: .35rem .5rem; }
+
+.recipe-body { display: grid; grid-template-columns: minmax(230px, 1fr) 1.7fr; gap: 2.4rem; align-items: start; }
+@media (max-width: 720px) { .recipe-body { grid-template-columns: 1fr; gap: 1.6rem; } }
+.component + .component { margin-top: 1.1rem; }
+.component h3 { font-size: .9rem; font-weight: 620; color: var(--accent); margin-bottom: .3rem; }
+ul.ing { list-style: none; padding: 0; margin: 0; }
+ul.ing li { padding: .32rem 0; border-bottom: 1px dashed var(--line); font-size: .95rem; }
+ul.ing li:last-child { border-bottom: none; }
+ul.ing .q { font-weight: 600; }
+ul.ing .note { color: var(--muted); }
+ul.ing .flag { font-size: .74rem; color: var(--warn); display: block; }
+ol.steps { padding-left: 1.3rem; margin: 0; }
+ol.steps li { margin-bottom: .85rem; padding-left: .25rem; }
+.note-box { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .8rem 1rem; margin-top: 1.4rem; font-size: .93rem; }
+.note-box h3 { font-size: .82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: .3rem; }
+
+.provenance { margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1.4rem; }
+.provenance summary { cursor: pointer; color: var(--muted); font-size: .92rem; }
+.prov-body { margin-top: 1rem; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.prov-body img { border: 1px solid var(--line); border-radius: var(--radius); }
+.edit { background: var(--accent-soft); border: 1px solid var(--line); border-radius: 8px; padding: .6rem .8rem; font-size: .88rem; margin-bottom: .5rem; }
+.edit b { display: block; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); }
+
+/* ---------- plan ---------- */
+.plan-row {
+  display: flex; align-items: center; gap: .8rem; padding: .7rem .9rem;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: .5rem;
+}
+.plan-row a { flex: 1; text-decoration: none; font-weight: 550; }
+.plan-row select { padding: .3rem .45rem; font-size: .86rem; }
+.list-opts { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin: 1.6rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.list-opts button { margin-left: auto; }
+.list-opts button + button { margin-left: 0; }
+
+.aisle { margin-bottom: 1.5rem; break-inside: avoid; }
+.aisle h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); margin-bottom: .45rem; padding-bottom: .25rem; border-bottom: 1px solid var(--line); }
+.buy { list-style: none; padding: 0; margin: 0; }
+.buy li { display: flex; gap: .6rem; align-items: baseline; padding: .3rem 0; font-size: .96rem; }
+.buy input { margin: 0; width: auto; accent-color: var(--accent); }
+.buy .qty { font-weight: 640; min-width: 6.5rem; }
+.buy .detail { color: var(--muted); font-size: .82rem; }
+.buy li.got { opacity: .42; text-decoration: line-through; }
+.marks { font-size: .8rem; letter-spacing: .1em; }
+.groceries-cols { columns: 2; column-gap: 2.4rem; }
+@media (max-width: 720px) { .groceries-cols { columns: 1; } }
+.why { display: block; font-size: .78rem; color: var(--muted); padding-left: 1.6rem; }
+
+/* ---------- offline + install ---------- */
+.offline {
+  background: var(--warn-soft); color: var(--warn);
+  border-bottom: 1px solid var(--line);
+  padding: .5rem max(1rem, (100vw - var(--wrap)) / 2);
+  font-size: .86rem; font-weight: 560;
+}
+.install-wrap {
+  position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%);
+  z-index: 20; display: flex; align-items: center; gap: .3rem;
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 99px; padding: .3rem .3rem .3rem .9rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,.14);
+}
+.install { border: none; background: none; font-weight: 600; font-size: .9rem; color: var(--accent); padding: .3rem 0; }
+.install-x {
+  border: none; background: none; color: var(--muted);
+  font-size: 1.1rem; line-height: 1; padding: .2rem .5rem; border-radius: 99px;
+}
+.install-x:hover { background: var(--bg); }
+.install-how { font-size: .88rem; padding: .3rem .6rem .3rem 0; }
+.install-how b { color: var(--accent); }
+@media print { .offline, .install-wrap { display: none; } }
+
+/* ---------- shop this list ---------- */
+.shop {
+  margin-top: 2rem; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); padding: .85rem 1rem;
+}
+.shop summary { cursor: pointer; font-weight: 600; font-size: .95rem; }
+.shop-note { font-size: .82rem; color: var(--muted); margin: .7rem 0 1rem; max-width: 60ch; }
+.shop-rows { display: flex; flex-direction: column; gap: .3rem; }
+.shop-row {
+  display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap;
+  padding: .3rem 0; border-bottom: 1px dashed var(--line); font-size: .9rem;
+}
+.shop-row:last-child { border-bottom: none; }
+.shop-item { flex: 1; min-width: 12rem; }
+.shop-link {
+  font-size: .8rem; text-decoration: none; color: var(--accent);
+  border: 1px solid var(--line); border-radius: 99px; padding: .1rem .55rem;
+}
+.shop-link:hover { border-color: var(--accent); background: var(--accent-soft); }
+@media print { .shop { display: none; } }
+
+.callout { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px; padding: .8rem 1rem; margin: 1.2rem 0; font-size: .92rem; }
+.callout h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); margin-bottom: .35rem; }
+.empty { text-align: center; padding: 4rem 1rem; color: var(--muted); }
+.legend { color: var(--muted); font-size: .82rem; margin-top: 1.5rem; }
+
+@media print {
+  .topbar, .foot, .list-opts, .back, .actions, .legend { display: none !important; }
+  body { background: #fff; font-size: 11pt; }
+  main { padding: 0; }
+  .aisle { break-inside: avoid; }
+  .groceries-cols { columns: 2; }
+  .buy li.got { display: none; }
+}
+
+/* ---------- account, cook history, photos ---------- */
+.account .lead { max-width: 62ch; color: var(--muted); font-size: 1.05rem; margin-bottom: 1.4rem; }
+.perks { list-style: none; padding: 0; margin: 0 0 1.8rem; max-width: 62ch; display: grid; gap: .7rem; }
+.perks li { padding-left: 1.4rem; position: relative; color: var(--muted); }
+.perks li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+.perks b { color: var(--ink); font-weight: 620; }
+.fineprint { font-size: .84rem; color: var(--muted); max-width: 58ch; margin-top: 1rem; }
+.acct-stats { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.2rem 0 1.6rem; }
+.stat { color: var(--muted); font-size: .92rem; }
+.stat b { display: block; font-size: 1.7rem; font-weight: 680; color: var(--ink); line-height: 1.1; }
+.optin { margin: 1rem 0 1.6rem; max-width: 58ch; align-items: flex-start; }
+.acct-actions { display: flex; gap: .6rem; flex-wrap: wrap; }
+/* A failed deletion has to look like a failure, not like nothing happened. */
+.acct-error {
+  margin-top: 1rem; max-width: 58ch; font-size: .9rem;
+  color: var(--warn); background: var(--warn-soft);
+  border: 1px solid var(--warn); border-radius: var(--radius); padding: .7rem .9rem;
+}
+
+.tag.cooked { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+
+.photos { margin-top: 2.4rem; border-top: 1px solid var(--line); padding-top: 1.4rem; }
+.photo-strip { display: flex; gap: .7rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.photo-strip figure { margin: 0; position: relative; }
+.photo-strip img { width: 160px; height: 160px; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); }
+.photo-x {
+  position: absolute; top: .3rem; right: .3rem; border: none;
+  background: rgba(0,0,0,.6); color: #fff; border-radius: 99px;
+  width: 1.5rem; height: 1.5rem; line-height: 1; padding: 0; font-size: 1rem;
+}
+.photo-add { display: flex; gap: .7rem; align-items: center; flex-wrap: wrap; }
+.photo-add input[type=file] { font-size: .86rem; max-width: 100%; }
+@media print { .photos, .account { display: none; } }
+
+.install-block { margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--line); }
+.install-block h2 { margin-bottom: .3rem; }
+.install-block .fineprint { margin: 0 0 .8rem; }

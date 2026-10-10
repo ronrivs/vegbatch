@@ -7,7 +7,7 @@ pipeline/.env
 node_modules/
 
 # Build output — regenerate with `npm run build` in pipeline/
-site/
+/site/
 
 # The original photographs of the household's recipe cards. They are the
 # provenance behind every recipe and they are private: handwriting, personal
